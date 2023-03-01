@@ -44,7 +44,8 @@ function App() {
             <div className='works-box'>
               <h3 className='circle'>1</h3>
               <h4>Register</h4>
-              <p>This is through your phone number and other details and choose a strong pin.</p>
+              <p>This is through your phone number and other<br></br>
+               details and choose a strong pin.</p>
               </div>
             <div className='works-box'>
               <h3 className='circle'>2</h3>

@@ -87,7 +87,11 @@ font-weight: 800;
   justify-content: space-between;
   align-items: center;
 }
-
+.works-box{
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+}
 /* Details */
 .summary {
   list-style: none;
