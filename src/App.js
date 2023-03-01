@@ -57,8 +57,9 @@ function App() {
             <div className='works-box'>
               <h3 className='circle'>3</h3>
               <h4>Choose Services</h4>
-              <p className='works-content'>Once you've logged in ,Select the services you require,
-               and start using them.</p>
+              <p className='works-content'>
+              Once you're logged in, browse through our services and select the ones that you require.
+              </p>
               </div>
           </div>
             <div class="button-container">
