@@ -29,7 +29,7 @@ function App() {
           <p>financial inclusion and accessibility </p>
           <p>for all.</p>
           {/* IMAGE */}
-          <img src={Africa} alt="Group-1" border="0" />
+          <img src={Africa} alt="Africa"/>
         </div>
       </section>
 
