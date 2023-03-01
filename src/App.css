@@ -107,6 +107,11 @@ font-weight: 800;
   margin-right: 20px;
 }
 
+.works-content
+{
+  text-align: justify;
+}
+
 /* Details */
 .summary {
   list-style: none;

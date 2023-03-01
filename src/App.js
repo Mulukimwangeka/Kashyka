@@ -38,26 +38,27 @@ function App() {
       {/* How it works Section */}
       <section id="works" className="works-section">
         <div className="works">
-          <h2 className='works-header'>How to Send Money With Kayshka</h2>
+          <h2 className='works-header'>How to Send Money With Kashyka</h2>
           <div className='works-container'>
             <div className='works-box'>
               <h3 className='circle'>1</h3>
               <h4>Register</h4>
-              <p>Enter your phone number<br></br>
+              <p className='works-content'>Enter your phone number
                and other
-               details and<br></br>
+               details and
                 choose a strong pin.</p>
               </div>
             <div className='works-box'>
               <h3 className='circle'>2</h3>
               <h4>Access Services</h4>
-              <p>Enter your Registered <br></br>
-              Phone number and Pin <br></br>and click login </p>
+              <p className='works-content'>Enter your Registered 
+              Phone number and Pin and click login </p>
               </div>
             <div className='works-box'>
               <h3 className='circle'>3</h3>
               <h4>Choose Services</h4>
-              <p>Once you've logged in<br></br>Select the services you require,<br></br> and start using them.</p>
+              <p className='works-content'>Once you've logged in ,Select the services you require,
+               and start using them.</p>
               </div>
           </div>
           {/* Get services button */}
