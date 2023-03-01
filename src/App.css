@@ -50,18 +50,26 @@ nav a:hover {
 /* About Section */
 .about-container{
   text-align: center;
-  padding: 120px;
+  padding: 80px;
   background-color: #032D40;
+  text-transform: lowercase;
+
 
 }
 .about-heading{
 color: #fff;
 font-size: 50px;
+text-transform: uppercase;
 }
 .Green-highlight{
   color:green;
 }
-
+.about-content{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
 /* Details */
 .summary {
   list-style: none;
