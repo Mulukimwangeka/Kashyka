@@ -20,23 +20,23 @@ function App() {
       </header>
 
       {/* About Section */}
-      <section id="About" className="services-section">
-        <div className="services-container">
+      <section id="About" className="about-section">
+        <div className="about-container">
           <h2>About</h2>
        
         </div>
       </section>
 
       {/* How it works Section */}
-      <section id="How it works" className="team-section">
-        <div className="team-container">
+      <section id="How it works" className="works-section">
+        <div className="works-container">
           <h2>How it works</h2>
          </div>
       </section>
 
     {/* contact Section */}
-    <section id="Help" className="contact-section">
-        <div className="services-container">
+    <section id="Help" className="help-section">
+        <div className="help-container">
           <h2>Help</h2>
         </div>
       </section>
