@@ -61,8 +61,11 @@ function App() {
                and start using them.</p>
               </div>
           </div>
-          {/* Get services button */}
-          <button className='service-btn'>Get services</button>
+            <div class="button-container">
+                <button class="service-btn">Get Services</button>
+            </div>
+
+
          </div>
       </section>
 
