@@ -37,14 +37,13 @@
   }
 }
 
-.summary{
+.summary {
   list-style: none;
 }
 
 summary::before {
   content: '+';
   padding-right: 10px;
-
   font-weight: bold;
 }
 
@@ -52,6 +51,16 @@ details[open] summary::before {
   content: '-';
   font-weight: bold;
 }
+
+details {
+  border-bottom: 3px solid black;
+  margin-bottom: 10px;
+}
+
+details:last-of-type {
+  border-bottom: none;
+}
+
 
 
 
