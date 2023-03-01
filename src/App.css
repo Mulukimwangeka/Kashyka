@@ -40,13 +40,19 @@
 .summary{
   list-style: none;
 }
+
 summary::before {
   content: '+';
+  padding-right: 10px;
+
+  font-weight: bold;
 }
 
 details[open] summary::before {
   content: '-';
+  font-weight: bold;
 }
+
 
 
 
