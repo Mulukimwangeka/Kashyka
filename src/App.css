@@ -53,14 +53,16 @@ nav a:hover {
   padding: 80px;
   background-color: #032D40;
   text-transform: lowercase;
-
-
+  font-family: 'Times New Roman', Times, serif;
 }
 .about-heading{
 color: #fff;
 font-size: 50px;
 text-transform: uppercase;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 800;
 }
+
 .Green-highlight{
   color:green;
 }
@@ -71,6 +73,21 @@ text-transform: uppercase;
   margin-top: 20px;
   text-transform: capitalize;
 }
+
+/* How it works Section */
+.works-header{
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  text-transform: capitalize;
+}
+.works-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Details */
 .summary {
   list-style: none;

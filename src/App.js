@@ -39,7 +39,7 @@ function App() {
       {/* How it works Section */}
       <section id="works" className="works-section">
         <div className="works">
-          <h2>How to Send Money With Kayshka</h2>
+          <h2 className='works-header'>How to Send Money With Kayshka</h2>
           <div className='works-container'>
             <div className='works-box'>
               <h3 className='circle'>1</h3>
