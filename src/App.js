@@ -27,8 +27,8 @@ function App() {
       <section id="About" className="about-section">
         <div className="about-container">
           <h2 className='about-heading'>WHAT IS <span className='Green-highlight'>KASH</span>YKA?</h2>
-          <p className='about-content'>A SECURE AND SPEEDY MONEY TRANSFER</p>
-          <p className='about-content'>PLATFORM FOR AFRICA that prioritizes</p>
+          <p className='about-content'>A Secure and speedy money transfer</p>
+          <p className='about-content'>platform for africa that prioritizes</p>
           <p className='about-content'>financial inclusion and accessibility </p>
           <p className='about-content'>for all.</p>
           {/* IMAGE */}
