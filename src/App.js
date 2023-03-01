@@ -76,7 +76,9 @@ function App() {
           <h2 className='parties-header'>Parties Involved</h2>
           
           {/*partners image*/}
+          <div className='partners-container'>
           <img src={Partners} alt="Partners" className='partners'/>
+          </div>
           </div>
           </section>
 
