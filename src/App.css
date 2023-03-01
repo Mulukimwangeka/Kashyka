@@ -155,10 +155,6 @@ font-weight: 800;
 }
 
 
-
-
-
-
 /* Help Section*/
 .help-container{
   text-align: center;
@@ -181,7 +177,7 @@ details[open] summary::before {
 }
 
 details {
-  border-bottom: 3px solid black;
+  border-bottom: 1px solid black;
   margin-bottom: 10px;
 }
 
