@@ -44,7 +44,7 @@ function App() {
               <h3 className='circle'>1</h3>
               <h4>Register Account</h4>
               <p className='works-content'>Enter your phone number
-               and other
+               and other<br></br>
                details and
                 choose a strong pin.</p>
               </div>
@@ -52,13 +52,13 @@ function App() {
               <h3 className='circle'>2</h3>
               <h4>Access Services</h4>
               <p className='works-content'>Enter your Registered 
-              Phone number and Pin and click login </p>
+              Phone number<br></br> and Pin and click login </p>
               </div>
             <div className='works-box'>
               <h3 className='circle'>3</h3>
               <h4>Choose Services</h4>
               <p className='works-content'>
-              Once you're logged in, browse through our services and select the ones that you require.
+              Once you're logged in, browse through<br></br> our services and select the ones that you require.
               </p>
               </div>
           </div>

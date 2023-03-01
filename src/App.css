@@ -109,7 +109,9 @@ font-weight: 800;
 
 .works-content
 {
-  text-align: justify;
+  text-align: center;
+  text-transform: capitalize;
+  
 }
 .button-container {
   display: flex;
