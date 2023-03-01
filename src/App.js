@@ -44,17 +44,13 @@ function App() {
       {/* Footer */}
       <footer className="footer">
         <div className="footer-container">
-          <ul>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Sitemap</a></li>
-          </ul>
+          
           <div className="social-media">
             <a href="#"><i className="fab fa-facebook-f"></i></a>
             <a href="#"><i className="fab fa-twitter"></i></a>
             <a href="#"><i className="fab fa-instagram"></i></a>
           </div>
-          <p>&copy; 2023 My Company. All Rights Reserved.</p>
+          <p>&copy; 2023 Kayshka. All Rights Reserved.</p>
         </div>
       </footer>
     </div>
