@@ -78,24 +78,24 @@ function App() {
           <h2>Everything you need to know about sending money With KAYSHKA</h2>
           {/* Faqs questions */}
           <details>
-             <summary>How do I register with Kayshka?</summary>
+             <summary className='summary'>How do I register with Kayshka?</summary>
               <p>You can register with Kayshka by providing your 
               phone number and other details and choosing a strong pin.
               </p>
            </details>
 
             <details>
-              <summary>How do I access my account?</summary>
+              <summary className='summary'>How do I access my account?</summary>
               <p>You can access your account by entering your phone number and pin.</p>
             </details>
 
             <details>
-              <summary>How do I send money?</summary>
+              <summary className='summary'>How do I send money?</summary>
               <p>You can send money by selecting the send money option and entering the amount you want to send and the phone number of the person you want to send the money to.</p>
             </details>
 
             <details>
-              <summary>How do I receive money?</summary>
+              <summary className='summary'>How do I receive money?</summary>
               <p>You can receive money by selecting the receive money option and entering the amount you want to receive and the phone number of the person you want to receive the money from.</p>
             </details>
             
