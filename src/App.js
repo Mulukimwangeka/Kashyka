@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import logo from './Images/logo.png';
-import Africa from './Images/AFRICA.png';
 import Partners from './Images/Partners.png'
 
 
@@ -44,18 +43,21 @@ function App() {
             <div className='works-box'>
               <h3 className='circle'>1</h3>
               <h4>Register</h4>
-              <p>This is through your phone number and other<br></br>
-               details and choose a strong pin.</p>
+              <p>Enter your phone number<br></br>
+               and other
+               details and<br></br>
+                choose a strong pin.</p>
               </div>
             <div className='works-box'>
               <h3 className='circle'>2</h3>
               <h4>Access Services</h4>
-              <p>This is by Entering your Phone number and Pin </p>
+              <p>Enter your Registered <br></br>
+              Phone number and Pin <br></br>and click login </p>
               </div>
             <div className='works-box'>
               <h3 className='circle'>3</h3>
               <h4>Choose Services</h4>
-              <p>Select the services you require, and start using them.</p>
+              <p>Once you've logged in<br></br>Select the services you require,<br></br> and start using them.</p>
               </div>
           </div>
           {/* Get services button */}
