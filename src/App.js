@@ -12,13 +12,13 @@ function App() {
       <header className="header">
         <nav>
         {/* a logo image */}
-          <a className="logo">
+          <div className="logo">
             <img src={logo} alt="Logo" />
-          </a>
-          <ul>
-            <li><a href="#About">About</a></li>
-            <li><a href="#works">How it Works</a></li>
-            <li><a href="#Help">Help</a></li>
+          </div>
+          <ul className='navlinks-section'>
+            <li className='navlinks'><a href="#About">About</a></li>
+            <li className='navlinks'><a href="#works">How it Works</a></li>
+            <li className='navlinks'><a href="#Help">Help</a></li>
           </ul>
         </nav>
       </header>
@@ -26,13 +26,13 @@ function App() {
       {/* About Section */}
       <section id="About" className="about-section">
         <div className="about-container">
-          <h2>WHAT IS KAYSHKA?</h2>
-          <p>A SECURE AND SPEEDY MONEY TRANSFER</p>
-          <p>PLATFORM FOR AFRICA that prioritizes</p>
-          <p>financial inclusion and accessibility </p>
-          <p>for all.</p>
+          <h2 className='about-heading'>WHAT IS <span className='Green-highlight'>KASH</span>YKA?</h2>
+          <p className='about-content'>A SECURE AND SPEEDY MONEY TRANSFER</p>
+          <p className='about-content'>PLATFORM FOR AFRICA that prioritizes</p>
+          <p className='about-content'>financial inclusion and accessibility </p>
+          <p className='about-content'>for all.</p>
           {/* IMAGE */}
-          <img src={Africa} alt="Africa"/>
+          {/* <img className='about-image' src={Africa} alt="Africa"/> */}
         </div>
       </section>
 
