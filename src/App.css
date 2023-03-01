@@ -156,7 +156,15 @@ font-weight: 800;
 
 
 
-/* Details */
+
+
+
+/* Help Section*/
+.help-container{
+  text-align: center;
+  padding: 80px;
+  text-transform: capitalize;
+}
 .summary {
   list-style: none;
 }
