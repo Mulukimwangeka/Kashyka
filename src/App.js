@@ -42,7 +42,7 @@ function App() {
           <div className='works-container'>
             <div className='works-box'>
               <h3 className='circle'>1</h3>
-              <h4>Register</h4>
+              <h4>Register Account</h4>
               <p className='works-content'>Enter your phone number
                and other
                details and
