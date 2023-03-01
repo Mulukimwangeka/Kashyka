@@ -73,10 +73,10 @@ function App() {
     {/* Parties invovled Section */}
     <section id="Parties" className="parties-section">
         <div className="parties-container">
-          <h2>Parties Involved</h2>
+          <h2 className='parties-header'>Parties Involved</h2>
           
           {/*partners image*/}
-          <img src={Partners} alt="Partners"/>
+          <img src={Partners} alt="Partners" className='partners'/>
           </div>
           </section>
 
