@@ -96,7 +96,7 @@ function App() {
     {/* help Section */}
     <section id="Help" className="help-section">
         <div className="help-container">
-          <h2 className='help-header'>Everything you need to know about sending money With KAYSHKA</h2>
+          <h2 className='help-header'>Everything you need to know about sending money With <span className='Green-highlight'>KASH</span>YKA?</h2>
           {/* Faqs questions */}
           <details>
              <summary className='summary'>How do I register with Kayshka?</summary>
