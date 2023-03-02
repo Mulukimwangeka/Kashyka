@@ -133,6 +133,7 @@ function App() {
       {/* Footer */}
       <footer className="footer">
         <div className="footer-container">
+          <h2 className='footer-header'>Connect With Us</h2>
           
         <div className="social-media">
           <a href="#"><FontAwesomeIcon icon={faFacebookF} /></a>

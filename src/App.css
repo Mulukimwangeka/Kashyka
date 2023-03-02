@@ -222,5 +222,23 @@ details:last-of-type {
   text-transform: capitalize;
 }
 
+.social-media a svg {
+  color: black;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 24px;
+  gap: 10px;
+}
+
+
+
+
+
 
 
