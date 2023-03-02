@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import logo from './Images/logo.png';
+import logo from './Images/kayshkal.png';
 import Partners from './Images/Partners.png'
 
 
@@ -18,13 +18,13 @@ function App() {
       <div className="navlinks-container">
         <ul className="navlinks-section">
           <li className="navlinks">
-            <a href="#About">About</a>
+            <a href="#About" className='links-name'>About</a>
           </li>
           <li className="navlinks">
-            <a href="#works">How it Works</a>
+            <a href="#works" className='links-name'>How it Works</a>
           </li>
           <li className="navlinks">
-            <a href="#Help">Help</a>
+            <a href="#Help" className='links-name'>Help</a>
           </li>
         </ul>
       </div>
