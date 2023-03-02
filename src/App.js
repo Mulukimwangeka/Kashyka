@@ -2,6 +2,9 @@ import React from 'react';
 import './App.css';
 import logo from './Images/kayshkal.png';
 import Partners from './Images/Partners.png'
+import { faFacebookF, faTwitter, faInstagram, faTelegram, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 
 function App() {
@@ -131,11 +134,17 @@ function App() {
       <footer className="footer">
         <div className="footer-container">
           
-          {/* <div className="social-media">
-            <a href="#"><i className="fab fa-facebook-f"></i></a>
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
-          </div> */}
+        <div className="social-media">
+          <a href="#"><FontAwesomeIcon icon={faFacebookF} /></a>
+          <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
+          <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+          <a href="#"><FontAwesomeIcon icon={faTelegram} /></a>
+          <a href="#"><FontAwesomeIcon icon={faWhatsapp} /></a>
+          <a href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
+
+
+
+        </div>
           <p>&copy; 2023 kashyka. All Rights Reserved.</p>
         </div>
       </footer>
