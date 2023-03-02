@@ -16,10 +16,13 @@
 .nav-section {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .logo img {
-  height: 50px;
+  height: 70px;
+  width: 100px;
 }
 
 .navlinks-section {
@@ -30,7 +33,7 @@
 }
 
 .navlinks {
-  margin-left: 20px;
+  margin-left: 200px;
 }
 
 .navlinks a {
