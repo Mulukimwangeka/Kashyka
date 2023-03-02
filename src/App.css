@@ -162,6 +162,7 @@ h4 {
   background-color:#d9d9d9;
   text-transform: capitalize;
   font-family: 'Helvetica';
+  font-size: larger;
 }
 .partners-container{
   justify-content: center;
@@ -193,6 +194,9 @@ h4 {
 .summary {
   list-style: none;
   margin-bottom: 10px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 summary::before {
