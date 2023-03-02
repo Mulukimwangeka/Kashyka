@@ -138,11 +138,15 @@ h4 {
   padding: 10px;
   background-color:black;
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  border-radius: 0px;
   margin-top: 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  
+
 }
 /* Parties section */
 .parties-container{
