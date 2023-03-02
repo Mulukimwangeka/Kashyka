@@ -13,27 +13,27 @@ function App() {
       {/* Header */}
       <header className="header">
   <nav>
-    <div className="nav-section">
-      {/* a logo image */}
-      <div className="logo">
+    <div class="nav-section">
+      <div class="logo">
         <img src={logo} alt="Logo" />
       </div>
-      <div className="navlinks-container">
-        <ul className="navlinks-section">
-          <li className="navlinks">
-            <a href="#About" className='links-name'>About</a>
+      <div class="navlinks-container">
+        <ul class="navlinks-section">
+          <li class="navlinks">
+            <a href="#About" class='links-name'>About</a>
           </li>
-          <li className="navlinks">
-            <a href="#works" className='links-name'>How it Works</a>
+          <li class="navlinks">
+            <a href="#works" class='links-name'>How it Works</a>
           </li>
-          <li className="navlinks">
-            <a href="#Help" className='links-name'>Help</a>
+          <li class="navlinks">
+            <a href="#Help" class='links-name'>Help</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 </header>
+
 
 
       {/* About Section */}

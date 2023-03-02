@@ -2,31 +2,14 @@
 
 /* Header */
 .header {
-  background-color: #fff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .nav-section {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.logo img {
-  width: 120px;
-  height: 60px;
-  object-fit: cover;
 }
 
 .navlinks-section {
@@ -34,26 +17,23 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
-
-.navlinks {
-  margin-left: 180px;
+.navlinks-section li {
+  margin: 0 10px;
 }
 
-.navlinks a {
-  color: #333;
+.links-name {
   text-decoration: none;
-  font-size: 20px;
-  font-weight: 800;
-  font-family: 'Lalezar', cursive;
-  transition: all 0.3s ease-in-out;
+  color: #000;
 }
 
-.navlinks a:hover {
-  color: #0077b6;
+.logo img {
+  width: 100px;
+  height: auto;
 }
+
+
 
 /* About Section */
 .about-container{
@@ -77,9 +57,11 @@ font-weight: 800;
 .about-content{
   color: #fff;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
   margin-top: 20px;
   text-transform: capitalize;
+
+  
 }
 
 /* How it works Section */
@@ -94,12 +76,14 @@ font-weight: 800;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .works-box {
   flex-basis: calc(33.33% - 20px);
   margin-bottom: 30px;
   text-align: center;
+  
 }
 
 .circle {
@@ -240,42 +224,37 @@ details:last-of-type {
 @media only screen and (max-width: 767px) {
 
   /* Header */
-  .nav-section {
-  flex-wrap: wrap;
+  .navlinks-section {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
   }
   
-  .logo img {
-  width: 80px;
-  height: 40px;
-  }
   
   .navlinks {
-  margin: 0;
-  padding: 0;
-  display: none;
+    margin-left: 180px;
   }
   
-  .navlinks.active {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 50px;
-  left: 0;
-  width: 100%;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  z-index: 999;
+  .navlinks a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Lalezar', cursive;
+    transition: all 0.3s ease-in-out;
   }
   
-  .navlinks.active a {
-  font-size: 16px;
-  margin: 10px;
+  .navlinks a:hover {
+    color: #0077b6;
   }
   
-  .navlinks.active a:hover {
-  color: #0077b6;
-  }
-  
+
+
+
+
+
   /* About Section */
   .about-container {
   padding: 50px;
@@ -363,46 +342,54 @@ details:last-of-type {
   
   }
 
+
+
   /* For phones */
 
   @media only screen and (max-width: 767px) {
 
 /* Header */
 .nav-section {
-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 .logo img {
-width: 80px;
-height: 40px;
+  width: 80px;
+  height: 40px;
+}
+.menu-btn {
+  display: block;
+}
+.navlinks-container {
+  display: none;
+}
+.navlinks-section {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 60px;
+  left: 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  opacity: 0.9;
+}
+.navlinks-section li {
+  margin-top: 30px;
+}
+.navlinks-section a {
+  font-size: 30px;
+  font-weight: 800;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.navlinks-section a:hover {
+  color: #0077b6;
 }
 
-.navlinks {
-margin: 0;
-padding: 0;
-display: none;
-}
-
-.navlinks.active {
-display: flex;
-flex-direction: column;
-position: absolute;
-top: 50px;
-left: 0;
-width: 100%;
-background-color: #fff;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-z-index: 999;
-}
-
-.navlinks.active a {
-font-size: 16px;
-margin: 10px;
-}
-
-.navlinks.active a:hover {
-color: #0077b6;
-}
 
 /* About Section */
 .about-container {
@@ -490,46 +477,7 @@ font-size: 20px;
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  /* CSS styles for iPads and tablets  */
-  .header {
-    padding: 5px;
-  }
-  
-  .logo img {
-    width: 100px;
-    height: 50px;
-  }
-  
-  .navlinks {
-    margin-left: 50px;
-  }
-  
-  .about-container {
-    padding: 80px;
-  }
-  
-  .about-heading {
-    font-size: 40px;
-  }
-  
-  .works-box {
-    flex-basis: calc(50% - 20px);
-  }
-  
-  .partners {
-    width: 70vw;
-    height: 50vh;
-  }
-  
-  .help-container {
-    padding: 50px;
-  }
-  
-  .social-media {
-    font-size: 20px;
-  }
-}
+
 
   
   
