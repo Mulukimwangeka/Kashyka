@@ -38,8 +38,6 @@
   height: auto;
 }
 
-
-
 /* About Section */
 .about-container{
   text-align: center;
@@ -167,7 +165,7 @@ h4 {
 /* Help Section*/
 .help-container{
   text-align: left;
-  padding: 80px;
+  padding: 50px;
   text-transform: capitalize;
 
 }
