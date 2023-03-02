@@ -9,18 +9,29 @@ function App() {
     <div className="App">
       {/* Header */}
       <header className="header">
-        <nav>
-        {/* a logo image */}
-          <div className="logo">
-            <img src={logo} alt="Logo" />
-          </div>
-          <ul className='navlinks-section'>
-            <li className='navlinks'><a href="#About">About</a></li>
-            <li className='navlinks'><a href="#works">How it Works</a></li>
-            <li className='navlinks'><a href="#Help">Help</a></li>
-          </ul>
-        </nav>
-      </header>
+  <nav>
+    <div className="nav-section">
+      {/* a logo image */}
+      <div className="logo">
+        <img src={logo} alt="Logo" />
+      </div>
+      <div className="navlinks-container">
+        <ul className="navlinks-section">
+          <li className="navlinks">
+            <a href="#About">About</a>
+          </li>
+          <li className="navlinks">
+            <a href="#works">How it Works</a>
+          </li>
+          <li className="navlinks">
+            <a href="#Help">Help</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
 
       {/* About Section */}
       <section id="About" className="about-section">
