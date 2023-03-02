@@ -297,9 +297,8 @@ font-size: 40px;
 }
 
 .about-content {
-font-size: 25px;
+font-size: 20px;
 text-align: center;
-font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -349,8 +348,8 @@ height: auto;
 margin-top: 10px;
 }
 .parties-header{
-font-size: 30px;
-text-transform: uppercase;
+font-size: 25px;
+text-transform: capitalize;
 
 }
 
@@ -365,10 +364,11 @@ padding: 50px;
 }
 
 .help-header {
-  margin-top: 0cm;
+margin-top: 0cm;
 font-size: 30px;
-text-align: justify;
-text-justify: inter-word;
+text-align: center;
+line-height: 1.5;
+
 }
 
 .summary {
