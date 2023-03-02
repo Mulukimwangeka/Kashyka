@@ -239,131 +239,7 @@ details:last-of-type {
   font-size: 24px;
   gap: 10px;
 }
-
-@media only screen and (max-width: 767px) {
-
-  /* Header */
-  .navlinks-section {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  
-  
-  .navlinks {
-    margin-left: 180px;
-  }
-  
-  .navlinks a {
-    color: #333;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 800;
-    font-family: 'Lalezar', cursive;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .navlinks a:hover {
-    color: #0077b6;
-  }
-  
-
-
-
-
-
-  /* About Section */
-  .about-container {
-  padding: 50px;
-  }
-  
-  .about-heading {
-  font-size: 40px;
-  }
-  
-  .about-content {
-  font-size: 16px;
-  }
-  
-  /* How it works Section */
-  .works-container {
-  flex-direction: column;
-  }
-  
-  .works-box {
-  flex-basis: 100%;
-  }
-  
-  .circle {
-  width: 40px;
-  height: 40px;
-  font-size: 18px;
-  }
-  
-  h4 {
-  font-size: 16px;
-  margin-bottom: 5px;
-  }
-  
-  .works-content {
-  font-size: 14px;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  }
-  
-  .button-container {
-  margin-top: 10px;
-  }
-  
-  .service-btn {
-  padding: 8px;
-  font-size: 16px;
-  margin-top: 10px;
-  }
-  
-  /* Parties section */
-  .partners-container {
-  width: 100%;
-  height: auto;
-  margin-top: 10px;
-  }
-  
-  .partners {
-  width: 100%;
-  height: auto;
-  }
-  
-  /* Help Section */
-  .help-container {
-  padding: 50px;
-  }
-  
-  .help-header {
-  font-size: 20px;
-
-  }
-  
-  .summary {
-  margin-bottom: 5px;
-  }
-  
-  .summary-p {
-  margin-left: 1;
-  }
-  
-  /* Footer Section */
-  .social-media {
-  font-size: 20px;
-  }
-  
-  }
-
-
-
-  /* For phones */
+/* For phones */
 
   @media only screen and (max-width: 767px) {
 
@@ -420,7 +296,10 @@ font-size: 40px;
 }
 
 .about-content {
-font-size: 16px;
+font-size: 20px;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+
 }
 
 /* How it works Section */
@@ -439,15 +318,17 @@ font-size: 18px;
 }
 
 h4 {
-font-size: 16px;
+font-size: 20px;
 margin-bottom: 5px;
 }
 
 .works-content {
-font-size: 14px;
+font-size: 20px;
 margin: 0;
 padding: 0;
 text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
 .button-container {
@@ -478,15 +359,18 @@ padding: 50px;
 }
 
 .help-header {
+  margin-top: 0cm;
 font-size: 40px;
 }
 
 .summary {
 margin-bottom: 5px;
+font-weight: 600;
 }
 
 .summary-p {
-margin-left: 0;
+margin-left: 1;
+
 }
 
 /* Footer Section */
