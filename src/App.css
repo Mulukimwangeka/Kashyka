@@ -10,6 +10,8 @@
   width: 100%;
   z-index: 1;
   padding: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .nav-section {
@@ -153,7 +155,9 @@ h4 {
   text-align: center;
   padding: 0px;
   background-color:#d9d9d9;
-  text-transform: capitalize;}
+  text-transform: capitalize;
+  font-family: 'Helvetica';
+}
 .partners-container{
   justify-content: center;
   align-items: center;
