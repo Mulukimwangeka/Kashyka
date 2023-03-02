@@ -54,7 +54,7 @@
 /* About Section */
 .about-container{
   text-align: center;
-  padding: 80px;
+  padding: 100px;
   background-color: #032D40;
   text-transform: lowercase;
   font-family: 'Helvetica';
@@ -82,51 +82,63 @@ font-weight: 800;
 .works-header{
   text-align: center;
   padding: 20px;
-  background-color: #fff;
-  text-transform: capitalize;
+  text-transform: uppercase;
+
 }
 .works-container {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
-.works-box{
-  width: 30%;
-  padding: 20px;
+
+.works-box {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 30px;
   text-align: center;
 }
 
 .circle {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
   border-radius: 50%;
-  background-color: #959da1;
-  color: black;
-  font-size: 20px;
-  font-weight: bold;
-  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #39ac67;
+  color: #fff;
+  margin: 0 auto 15px;
+  font-size: 24px;
 }
 
-.works-content
-{
-  text-align: center;
-  text-transform: capitalize;
-  
+h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
+
+.works-content {
+  font-size: 16px;
+  text-align: calc();
+  text-justify: inter-word;
+  word-spacing: -0.1em;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.6;
+}
+
+
 .button-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .service-btn{
   text-align: center;
   padding: 10px;
-  background-color:green;
+  background-color:black;
   color: #fff;
   font-size: 20px;
   font-weight: bold;
@@ -161,9 +173,10 @@ font-weight: 800;
 
 /* Help Section*/
 .help-container{
-  text-align: center;
+  text-align: left;
   padding: 80px;
   text-transform: capitalize;
+
 }
 .summary {
   list-style: none;
