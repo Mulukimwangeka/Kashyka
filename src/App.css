@@ -20,13 +20,18 @@
 }
 
 .navlinks-section li {
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 .links-name {
   text-decoration: none;
   color: #000;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Lalezar', cursive;
+  transition: all 0.3s ease-in-out;
 }
+
 
 .logo img {
   width: 100px;
@@ -38,7 +43,7 @@
 /* About Section */
 .about-container{
   text-align: center;
-  padding: 100px;
+  padding: 65px;
   background-color: #032D40;
   text-transform: lowercase;
   font-family: 'Helvetica';
