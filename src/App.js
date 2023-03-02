@@ -102,7 +102,7 @@ function App() {
           <h2 className='help-header'>Everything you need to know about sending money With <span className='Green-highlight'>KASH</span>YKA?</h2>
           {/* Faqs questions */}
           <details>
-             <summary className='summary'>How do I register with Kashyka?</summary>
+             <summary className='summary'>How do I register?</summary>
               <p className='summary-p'>You can register with kashyka by providing your 
               phone number and other details and choosing a strong pin.
               </p>

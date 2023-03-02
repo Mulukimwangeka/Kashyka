@@ -204,6 +204,7 @@ summary::before {
 details[open] summary::before {
   content: '-';
   font-weight: bold;
+  color: red;
 }
 
 details {
@@ -296,7 +297,7 @@ font-size: 40px;
 }
 
 .about-content {
-font-size: 20px;
+font-size: 25px;
 text-align: center;
 font-family: 'Times New Roman', Times, serif;
 
@@ -347,6 +348,11 @@ width: 100%;
 height: auto;
 margin-top: 10px;
 }
+.parties-header{
+font-size: 30px;
+text-transform: uppercase;
+
+}
 
 .partners {
 width: 100%;
@@ -360,10 +366,13 @@ padding: 50px;
 
 .help-header {
   margin-top: 0cm;
-font-size: 40px;
+font-size: 30px;
+text-align: justify;
+text-justify: inter-word;
 }
 
 .summary {
+font-size: large;
 margin-bottom: 5px;
 font-weight: 600;
 }
