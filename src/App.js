@@ -72,7 +72,7 @@ function App() {
               <h3 className='circle'>3</h3>
               <h4>Choose Services</h4>
               <p className='works-content'>
-              Once you're logged in, browse through<br></br> our services and select the ones that you require.
+              log in, browse through our services and select the ones that you require.
               </p>
               </div>
           </div>

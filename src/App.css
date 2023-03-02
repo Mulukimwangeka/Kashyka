@@ -117,7 +117,7 @@ h4 {
 .works-content {
   font-size: 16px;
   text-align: calc();
-  text-justify: inter-word;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   word-spacing: -0.1em;
   margin: 0;
   padding-left: 10px;
