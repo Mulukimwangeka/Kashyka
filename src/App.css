@@ -80,7 +80,10 @@ font-weight: 800;
   font-size: 16px;
   font-weight: 600;
   margin-top: 20px;
-  text-transform: capitalize;}
+  text-transform: capitalize;
+  font-family: 'Mitr', sans-serif;
+}
+  
 
   
 .about-image{
@@ -140,6 +143,7 @@ h4 {
   padding-right: 10px;
   line-height: 1.6;
   text-transform: capitalize;
+  
 }
 
 
@@ -384,7 +388,9 @@ padding: 60px;
 }
 
 .about-heading {
-font-size: 40px;
+font-size: 35px;
+
+
 }
 
 .about-content {
