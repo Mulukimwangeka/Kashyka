@@ -127,7 +127,7 @@ function App() {
     {/* Parties invovled Section */}
     <section id="Parties" className="parties-section">
         <div className="parties-container">
-        <div className='parties-header-container'>
+        <div className='parties-header'>
         <h2 className='parties-header'>Payment Parties</h2>
         </div>
           

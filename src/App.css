@@ -161,31 +161,31 @@ h4 {
 }
 /* Parties section */
 .parties-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 0;
   background-color: #d9d9d9;
   padding: 2px;
 }
 
-.parties-header-container {
-  width: 30%;
-  text-align: end;
+.parties-header {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 800;
 }
 
 .partners-container {
-  width: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  width: 100%;
 }
 
 .partners {
-  max-width: 100%;
+  width: 50%;
   height: auto;
+  margin: 0 auto;
+  display: flex;
 }
-
 
 
 /* Help Section*/
