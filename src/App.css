@@ -58,7 +58,7 @@ nav {
 /* About Section */
 .about-container{
   text-align: center;
-  padding: 130px;
+  padding: 45px;
   background-color: #032D40;
   text-transform: lowercase;
   font-family: 'Helvetica';
@@ -86,6 +86,8 @@ font-weight: 800;
 .about-image{
 width: 5cm;
 height: 5cm;
+padding: 10px;
+border-radius: 50%;
 }
 
 /* How it works Section */

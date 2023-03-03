@@ -37,7 +37,7 @@ function App() {
                   <a href="#About" class='links-name'>About</a>
                 </li>
                 <li>
-                  <a href="#works" class='links-name'>Works</a>
+                  <a href="#works" class='links-name'>How it Works</a>
                 </li>
                 <li>
                   <a href="#Help" class='links-name'>Help</a>
@@ -64,7 +64,7 @@ function App() {
                     <a href="#About" class='mobilelinks-name'>About</a>
                   </li>
                   <li>
-                    <a href="#works" class='mobilelinks-name'>Works</a>
+                    <a href="#works" class='mobilelinks-name'>How it Works</a>
                   </li>
                   <li>
                     <a href="#Help" class='mobilelinks-name'>Help</a>
