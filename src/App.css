@@ -334,10 +334,7 @@ details:last-of-type {
   bottom: 0;
   }
   
-  /* add hover effect to menu icon bars */
-  .menu-icon:hover span {
-  background-color: #11b452;
-  }
+ 
 
 /* About Section */
 .about-container {
