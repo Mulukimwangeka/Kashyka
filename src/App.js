@@ -127,7 +127,9 @@ function App() {
     {/* Parties invovled Section */}
     <section id="Parties" className="parties-section">
         <div className="parties-container">
-          <h2 className='parties-header'>Payment Parties</h2>
+        <div className='parties-header-container'>
+        <h2 className='parties-header'>Payment Parties</h2>
+        </div>
           
           {/*partners image*/}
           <div className='partners-container'>
