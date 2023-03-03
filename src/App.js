@@ -101,7 +101,7 @@ function App() {
               </div>
           </div>
             <div class="button-container">
-                <button class="service-btn">Get Services</button>
+                <button class="service-btn">Get Started</button>
             </div>
 
 

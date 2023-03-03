@@ -310,7 +310,7 @@ details:last-of-type {
 
 
 .menu-icon span {
-  background-color: #333; /* set the color of the menu icon bars */
+  background-color:black; /* set the color of the menu icon bars */
   display: block;
   height: 2px;
   position: absolute;
