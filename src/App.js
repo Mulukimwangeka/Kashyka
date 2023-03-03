@@ -44,13 +44,13 @@ function App() {
                 <span></span>
                 <ul class={`mobile-navlinks-section ${menuOpen ? 'open' : ''}`}>
                   <li>
-                    <a href="#About" class='links-name'>About</a>
+                    <a href="#About" class='mobilelinks-name'>About</a>
                   </li>
                   <li>
-                    <a href="#works" class='links-name'>Works</a>
+                    <a href="#works" class='mobilelinks-name'>Works</a>
                   </li>
                   <li>
-                    <a href="#Help" class='links-name'>Help</a>
+                    <a href="#Help" class='mobilelinks-name'>Help</a>
                   </li>
                 </ul>
               </div>

@@ -265,6 +265,7 @@ details:last-of-type {
 
 .mobile-menu-icon-section {
   display: block; /* show the mobile menu icon section */
+  
 }
 
 .mobile-navlinks-section {
@@ -272,15 +273,27 @@ details:last-of-type {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* add a shadow effect */
   display: none; /* hide the mobile navigation links by default */
   position: fixed;
-  top: 80px; /* set the top position to be below the header */
+  top: 60px; /* set the top position to be below the header */
   left: 0;
   width: 100%;
-  padding: 20px; /* add padding to the mobile menu */
+  padding: 30px; /* add padding to the mobile menu */
   z-index: 999; /* set the z-index to ensure the mobile menu is on top of everything */
+  list-style: none;
+  
 }
 
 .mobile-navlinks-section.open {
   display: block; /* show the mobile navigation links when the mobile menu icon is clicked */
+}
+.mobilelinks-name{
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 1cm;
+  margin-bottom: 20px;
+  color: #333;
+  text-decoration: solid;
+  
 }
 
 .menu-icon {
