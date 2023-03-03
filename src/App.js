@@ -10,7 +10,16 @@ function App() {
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+    const menuIcon = document.querySelector('.menu-icon');
+    if (menuOpen) {
+      menuIcon.classList.remove('open');
+    } else {
+      menuIcon.classList.add('open');
+    }
   };
+  
+
+
 
   return (
     <div className="App">
@@ -42,6 +51,13 @@ function App() {
                 <span></span>
                 <span></span>
                 <span></span>
+                {menuOpen ? (
+                <div class="exit-icon" onClick={toggleMenu}>
+                <span></span>
+                <span></span>
+                </div>
+                ) : null}
+
                 <ul class={`mobile-navlinks-section ${menuOpen ? 'open' : ''}`}>
                   <li>
                     <a href="#About" class='mobilelinks-name'>About</a>
