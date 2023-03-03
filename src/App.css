@@ -269,7 +269,7 @@ details:last-of-type {
 }
 
 .mobile-navlinks-section {
-  background-color: #fff; /* set the background color of the mobile menu */
+  background-color:gray; /* set the background color of the mobile menu */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* add a shadow effect */
   display: none; /* hide the mobile navigation links by default */
   position: fixed;
@@ -291,7 +291,7 @@ details:last-of-type {
   text-transform: capitalize;
   margin-top: 1cm;
   margin-bottom: 20px;
-  color: #333;
+  color: white;
   text-decoration: solid;
   
 }
