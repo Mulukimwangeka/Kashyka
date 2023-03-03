@@ -69,6 +69,7 @@ font-size: 50px;
 text-transform: uppercase;
 font-family: 'Times New Roman', Times, serif;
 font-weight: 800;
+
 }
 
 .Green-highlight{
@@ -269,7 +270,7 @@ details:last-of-type {
 }
 
 .mobile-navlinks-section {
-  background-color:gray; /* set the background color of the mobile menu */
+  background-color:rgb(110, 107, 107); /* set the background color of the mobile menu */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* add a shadow effect */
   display: none; /* hide the mobile navigation links by default */
   position: fixed;
@@ -374,7 +375,7 @@ details:last-of-type {
 
 /* About Section */
 .about-container {
-padding: 50px;
+padding: 60px;
 }
 
 .about-heading {
