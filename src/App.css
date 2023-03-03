@@ -284,12 +284,17 @@ details:last-of-type {
 }
 
 .menu-icon {
-  display: block; /* show the mobile menu icon */
+  display: block;
   cursor: pointer;
   height: 24px;
-  position: relative;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 28px;
+  margin-right: 20px;
   width: 24px;
 }
+
 
 .menu-icon span {
   background-color: #333; /* set the color of the menu icon bars */
