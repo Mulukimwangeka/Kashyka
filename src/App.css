@@ -296,6 +296,10 @@ details:last-of-type {
   
 }
 
+.mobile-navlinks-section li {
+  margin-bottom: 20px;
+} 
+
 .menu-icon {
   display: block;
   cursor: pointer;
@@ -332,7 +336,7 @@ details:last-of-type {
   
   /* add hover effect to menu icon bars */
   .menu-icon:hover span {
-  background-color: #555;
+  background-color: #11b452;
   }
 
 /* About Section */
