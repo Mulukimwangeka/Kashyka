@@ -160,31 +160,30 @@ h4 {
 
 }
 /* Parties section */
-.parties-container {
+.parties-container{
+  margin: top 0;
   background-color: #d9d9d9;
   padding: 2px;
 }
 
-.parties-header {
-  display: block;
+.parties-header{
   text-align: center;
-  width: 100%;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  font-size: 22px;
+  padding: 0px;
+  background-color:#d9d9d9;
+  text-transform: capitalize;
+  font-size: larger;
   font-weight: 800;
 }
-
-.partners-container {
-  display: block;
-  width: 100%;
-}
-
-.partners {
-  width: 50%;
-  height: auto;
-  margin: 0 auto;
+.partners-container{
+  justify-content: center;
+  align-items: center;
   display: flex;
+
+}
+.partners {
+  width: 50vw;
+  height: 60vh;
+
 }
 
 
@@ -428,20 +427,24 @@ margin-top: 10px;
 }
 
 /* Parties section */
-.parties-container {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.parties-header-container {
-  width: 50%;
-}
-
 .partners-container {
-  width: 100%;
-  margin-top: 10px;
+width: 100%;
+height: auto;
+margin-top: 10px;
 }
+.parties-header{
+font-size: 22px;
+text-transform: uppercase;
+color: #000;
+text-align: center;
+
+}
+
+.partners {
+width: 100%;
+height: auto;
+}
+
 /* Help Section */
 .help-container {
 padding: 50px;
