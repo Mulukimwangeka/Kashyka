@@ -57,6 +57,7 @@ nav {
 
 /* About Section */
 .about-container{
+  
   text-align: center;
   padding: 45px;
   background-color: #032D40;
@@ -208,14 +209,14 @@ h4 {
   text-align: center;
   padding: 20px;
   text-transform: capitalize;
-  font-size:150%;
+  font-size:160%;
   font-weight: 800;
 }
 .summary {
   list-style: none;
   margin-bottom: 10px;
   text-transform: capitalize;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
 }
 
