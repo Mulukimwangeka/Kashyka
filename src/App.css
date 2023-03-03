@@ -428,24 +428,20 @@ margin-top: 10px;
 }
 
 /* Parties section */
+.parties-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parties-header-container {
+  width: 50%;
+}
+
 .partners-container {
-width: 100%;
-height: auto;
-margin-top: 10px;
+  width: 100%;
+  margin-top: 10px;
 }
-.parties-header{
-font-size: 22px;
-text-transform: uppercase;
-color: #000;
-text-align: center;
-
-}
-
-.partners {
-width: 100%;
-height: auto;
-}
-
 /* Help Section */
 .help-container {
 padding: 50px;
