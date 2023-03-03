@@ -1,39 +1,63 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import logo from './Images/mainlogo.png';
 import Partners from './Images/Partners.png'
 import { faFacebookF, faTwitter, faInstagram, faTelegram, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-
-
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <div className="App">
       {/* Header */}
-      <header className="header">
-  <nav>
-    <div class="nav-section">
-      <div class="logo">
-        <img src={logo} alt="Logo" />
-      </div>
-      <div class="navlinks-container">
-        <ul class="navlinks-section">
-          <li class="navlinks">
-            <a href="#About" class='links-name'>About</a>
-          </li>
-          <li class="navlinks">
-            <a href="#works" class='links-name'>How it Works</a>
-          </li>
-          <li class="navlinks">
-            <a href="#Help" class='links-name'>Help</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
-
+      <header class="header">
+        <nav>
+          <div class="nav-section">
+            <div class="logo">
+              <img src={logo} alt="Logo" />
+            </div>
+            <div class="wide-navlinks-section">
+              <ul class="navlinks">
+                <li>
+                  <a href="#About" class='links-name'>About</a>
+                </li>
+                <li>
+                  <a href="#works" class='links-name'>Works</a>
+                </li>
+                <li>
+                  <a href="#Help" class='links-name'>Help</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu-icon-section">
+              <div
+                class={`menu-icon ${menuOpen ? 'open' : ''}`}
+                onClick={toggleMenu}
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul class={`mobile-navlinks-section ${menuOpen ? 'open' : ''}`}>
+                  <li>
+                    <a href="#About" class='links-name'>About</a>
+                  </li>
+                  <li>
+                    <a href="#works" class='links-name'>Works</a>
+                  </li>
+                  <li>
+                    <a href="#Help" class='links-name'>Help</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
 
 
       {/* About Section */}
@@ -58,7 +82,7 @@ function App() {
               <h3 className='circle'>1</h3>
               <h4>Register Account</h4>
               <p className='works-content'>Enter your phone number
-               and other<br></br>
+               ,other<br></br>
                details and
                 choose a strong pin.</p>
               </div>
@@ -66,7 +90,7 @@ function App() {
               <h3 className='circle'>2</h3>
               <h4>Access Services</h4>
               <p className='works-content'>Enter your Registered 
-              Phone number<br></br> and Pin and click login </p>
+              Phone number,<br></br> Pin and click login </p>
               </div>
             <div className='works-box'>
               <h3 className='circle'>3</h3>

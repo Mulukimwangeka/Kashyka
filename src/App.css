@@ -1,49 +1,59 @@
-
-
 /* Header */
-.header {
+header {
+  background-color: #fff; /* set the background color of the header */
+  border-bottom: 1px solid #ddd; /* add a border to the bottom of the header */
+  height: 80px; /* set the height of the header */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* set the z-index to ensure the navbar is always on top */
+}
+
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  background-color: white;
   width: 100%;
-  z-index: 1;
-  padding: 10px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-
+  max-width: 1200px; /* set a maximum width for the navbar */
+  padding: 0 20px; /* add padding to the left and right of the navbar */
 }
 
-.nav-section {
-  display: flex;
-  align-items: center;
+.logo img {
+  height: 60px; /* set the height of the logo */
+  width: auto; /* set the width to auto to ensure the aspect ratio is maintained */
 }
 
-.navlinks-section {
+.navlinks {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.navlinks-section li {
-  margin: 0 15px;
+.navlinks li {
+  margin-right: 20px; /* add margin to separate the links */
 }
 
-.links-name {
+.navlinks a {
+  color: #333; /* set the color of the links */
+  font-size: 16px; /* set the font size of the links */
   text-decoration: none;
-  color: #000;
-  font-size: 20px;
-  font-weight: 800;
-  font-family: 'Lalezar', cursive;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease; /* add a smooth transition effect */
+}
+
+.navlinks a:hover {
+  color: #666; /* set the color of the links when hovered */
+}
+
+.mobile-menu-icon-section {
+  display: none; /* hide the mobile menu icon section by default */
 }
 
 
-.logo img {
-  width: 100px;
-  height: auto;
-}
 
 /* About Section */
 .about-container{
@@ -249,47 +259,63 @@ details:last-of-type {
   @media only screen and (max-width: 767px) {
 
 /* Header */
-.nav-section {
-  flex-wrap: wrap;
-}
-.logo img {
-  width: 80px;
-  height: 40px;
-}
-.menu-btn {
-  display: block;
-}
-.navlinks-container {
-  display: none;
-}
-.navlinks-section {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  top: 60px;
-  left: 0;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  z-index: 999;
-  opacity: 0.9;
-}
-.navlinks-section li {
-  margin-top: 30px;
-}
-.navlinks-section a {
-  font-size: 30px;
-  font-weight: 800;
-  color: #333;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-}
-.navlinks-section a:hover {
-  color: #0077b6;
+.navlinks {
+  display: none; /* hide the desktop navigation links */
 }
 
+.mobile-menu-icon-section {
+  display: block; /* show the mobile menu icon section */
+}
+
+.mobile-navlinks-section {
+  background-color: #fff; /* set the background color of the mobile menu */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* add a shadow effect */
+  display: none; /* hide the mobile navigation links by default */
+  position: fixed;
+  top: 80px; /* set the top position to be below the header */
+  left: 0;
+  width: 100%;
+  padding: 20px; /* add padding to the mobile menu */
+  z-index: 999; /* set the z-index to ensure the mobile menu is on top of everything */
+}
+
+.mobile-navlinks-section.open {
+  display: block; /* show the mobile navigation links when the mobile menu icon is clicked */
+}
+
+.menu-icon {
+  display: block; /* show the mobile menu icon */
+  cursor: pointer;
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.menu-icon span {
+  background-color: #333; /* set the color of the menu icon bars */
+  display: block;
+  height: 2px;
+  position: absolute;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.menu-icon span:nth-child(1) {
+  top: 0;
+}
+.menu-icon span:nth-child(2) {
+  top: 50%;
+  margin-top: -1px; /* align the second bar to the center */
+  }
+  
+  .menu-icon span:nth-child(3) {
+  bottom: 0;
+  }
+  
+  /* add hover effect to menu icon bars */
+  .menu-icon:hover span {
+  background-color: #555;
+  }
 
 /* About Section */
 .about-container {
