@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import logo from './Images/mainlogo.png';
 import Partners from './Images/Partners.png'
+import about from './Images/aboutkash.jpg'
 import { faFacebookF, faTwitter, faInstagram, faTelegram, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -84,7 +85,7 @@ function App() {
           <p className='about-content'>for africa that prioritizes financial </p>
           <p className='about-content'> inclusion and accessibility for all.</p>
           {/* IMAGE */}
-          {/* <img className='about-image' src={Africa} alt="Africa"/> */}
+          <img className='about-image' src={about} alt="aboutpicture"/>
         </div>
       </section>
 

@@ -58,7 +58,7 @@ nav {
 /* About Section */
 .about-container{
   text-align: center;
-  padding: 65px;
+  padding: 130px;
   background-color: #032D40;
   text-transform: lowercase;
   font-family: 'Helvetica';
@@ -80,9 +80,12 @@ font-weight: 800;
   font-size: 16px;
   font-weight: 600;
   margin-top: 20px;
-  text-transform: capitalize;
+  text-transform: capitalize;}
 
   
+.about-image{
+width: 5cm;
+height: 5cm;
 }
 
 /* How it works Section */
