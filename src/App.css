@@ -353,7 +353,7 @@ details:last-of-type {
 .exit-icon:after {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 0%;
   left: 0;
   width: 100%;
   height: 2px;
