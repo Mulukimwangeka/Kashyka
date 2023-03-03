@@ -273,12 +273,13 @@ details:last-of-type {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* add a shadow effect */
   display: none; /* hide the mobile navigation links by default */
   position: fixed;
-  top: 60px; /* set the top position to be below the header */
+  top: 65px; /* set the top position to be below the header */
   left: 0;
   width: 100%;
   padding: 30px; /* add padding to the mobile menu */
   z-index: 999; /* set the z-index to ensure the mobile menu is on top of everything */
   list-style: none;
+  opacity: 0.9;
   
 }
 
