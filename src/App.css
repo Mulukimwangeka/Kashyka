@@ -515,6 +515,83 @@ font-size: 20px;
 
 }
 
+@media only screen and (min-width: 768px) {
+  header {
+    height: 120px;
+  }
+  
+  .nav-section {
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    height: 4cm;
+    width: 10cm;
+  }
+  
+  .img {
+    height: 4cm;
+    width: 8cm;
+  }
+  
+  .navlinks {
+    justify-content: center;
+  }
+  
+  .links-name {
+    margin: 0 30px;
+  }
+  
+  .mobile-menu-icon-section {
+    display: none;
+  }
+  
+  .about-container {
+    padding: 60px;
+  }
+  
+  .about-heading {
+    font-size: 80px;
+  }
+  
+  .about-content {
+    font-size: 20px;
+  }
+  
+  .about-image {
+    width: 10cm;
+    height: 10cm;
+    padding: 20px;
+  }
+  
+  .works-box {
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 30px;
+  }
+  
+  .button-container {
+    margin-top: 50px;
+  }
+  
+  .partners {
+    width: 30vw;
+    height: 50vh;
+  }
+  
+  .help-container {
+    padding: 80px;
+  }
+  
+  .help-header {
+    font-size: 200%;
+  }
+  
+  .summary {
+    font-size: 24px;
+  }
+}
+
+
 
 
 
