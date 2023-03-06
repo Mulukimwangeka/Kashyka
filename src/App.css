@@ -13,34 +13,30 @@ header {
   z-index: 1000; /* set the z-index to ensure the navbar is always on top */
 }
 
-nav {
+.nav-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  max-width: 1200px; /* set a maximum width for the navbar */
-  padding: 0 20px; /* add padding to the left and right of the navbar */
 }
 
-.logo img {
-  height: 55px; /* set the height of the logo */
-  width: 130px; /* set the width to auto to ensure the aspect ratio is maintained */
+.logo {
+  height:2cm;
+  width: 25cm;
 }
-.wide-navlinks-section {
-  display: flex;
-  justify-content: flex-end; /* move nav links to the right */
+.img{
+  height: 2cm;
+  width: 5cm;
 }
 .navlinks {
   display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  
+  justify-content: flex-end; /* align links to the right */
+  list-style: NONE;
 }
 
-.navlinks li {
-  margin-right: 20px; /* add margin to separate the links */
+.links-name {
+  margin-right: 20px; /* add margin to separate links */
 }
+
 
 .navlinks a {
   color: #333; /* set the color of the links */
@@ -55,8 +51,8 @@ nav {
 
 .mobile-menu-icon-section {
   display: none; /* hide the mobile menu icon section by default */
+  
 }
-
 
 
 /* About Section */
@@ -276,6 +272,32 @@ details:last-of-type {
 /* Header */
 .navlinks {
   display: none; /* hide the desktop navigation links */
+}
+.header{
+  padding: 0px;
+  margin: 0px;
+  background-color: #fff;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+  width: 10cm;
+  padding: 1px;
+  margin: 1px;
+  border-radius: 0px;
+}
+.img{
+  width: 50%;
+  height: 100%;
+  padding: 1px;
+  margin: 1px;
+  border-radius: 0px;
 }
 
 .mobile-menu-icon-section {

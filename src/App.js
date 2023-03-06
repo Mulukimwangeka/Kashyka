@@ -29,7 +29,7 @@ function App() {
         <nav>
           <div class="nav-section">
             <div class="logo">
-              <img src={logo} alt="Logo" />
+              <img src={logo} className="img" alt="Logo" />
             </div>
             <div class="wide-navlinks-section">
               <ul class="navlinks">
@@ -43,6 +43,7 @@ function App() {
                   <a href="#Help" class='links-name'>Help</a>
                 </li>
               </ul>
+            </div>
             </div>
             <div class="mobile-menu-icon-section">
               <div
@@ -72,7 +73,6 @@ function App() {
                 </ul>
               </div>
             </div>
-          </div>
         </nav>
       </header>
 
