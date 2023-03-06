@@ -63,7 +63,7 @@ header {
 .about-container{
   
   text-align: center;
-  padding: 45px;
+  padding: 100px;
   background-color: #032D40;
   text-transform: lowercase;
   font-family: 'Helvetica';
@@ -96,13 +96,24 @@ width: 5cm;
 height: 5cm;
 padding: 10px;
 border-radius: 50%;
+border: 2px solid #fff;
+
 }
 
+
 /* How it works Section */
+.works-section{
+  background-color: #fff;
+  padding: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Helvetica';
+}
 .works-header{
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   text-transform: uppercase;
+  font-size: 40px;
 
 }
 .works-container {
@@ -115,7 +126,7 @@ border-radius: 50%;
 
 .works-box {
   flex-basis: calc(33.33% - 20px);
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   text-align: center;
   
 }
@@ -132,9 +143,22 @@ border-radius: 50%;
   margin: 0 auto 15px;
   font-size: 24px;
 }
+.circle1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #39ac67;
+  color: #fff;
+  margin: 0 auto 15px;
+  font-size: 24px;
+}
 
 h4 {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
@@ -435,15 +459,40 @@ font-family: 'Playfair Display', serif;
 .works-container {
 flex-direction: column;
 }
+.works-section{
+padding: 20px;
+}
 
 .works-box {
 flex-basis: 100%;
+margin-top: 0;
+margin-bottom: 0.5cm;
+
+
+}
+.circle1{
+margin-top: 0.1cm;
+width: 40px;
+height: 40px;
+font-size: 18px;
+border-radius: 50%;
 }
 
 .circle {
 width: 40px;
 height: 40px;
 font-size: 18px;
+border-radius: 50%;
+
+}
+.works-header{
+font-size: 30px;
+margin-top: 1.5cm;
+margin-bottom: 0cm;
+text-align: center;
+text-transform: capitalize;
+
+
 }
 
 h4 {
@@ -452,7 +501,7 @@ margin-bottom: 5px;
 }
 
 .works-content {
-font-size: 20px;
+font-size: 22px;
 margin: 0;
 padding: 0;
 text-align: center;
@@ -461,13 +510,17 @@ font-family: 'Playfair Display', serif;
 }
 
 .button-container {
-margin-top: 10px;
+display: flex;
+justify-content: center;
+margin-top: -0.5cm;
+margin-bottom: 0cm;
+
+
 }
 
 .service-btn {
 padding: 8px;
 font-size: 16px;
-margin-top: 10px;
 }
 
 /* Parties section */

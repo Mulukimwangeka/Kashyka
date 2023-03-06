@@ -98,7 +98,7 @@ function App() {
           <h2 className='works-header'>How to Send Money With Kashyka</h2>
           <div className='works-container'>
             <div className='works-box'>
-              <h3 className='circle'>1</h3>
+              <h3 className='circle1'>1</h3>
               <h4>Register Account</h4>
               <p className='works-content'>Enter your phone number
                ,other<br></br>
