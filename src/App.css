@@ -26,12 +26,16 @@ nav {
   height: 60px; /* set the height of the logo */
   width: auto; /* set the width to auto to ensure the aspect ratio is maintained */
 }
-
+.wide-navlinks-section {
+  display: flex;
+  justify-content: flex-end; /* move nav links to the right */
+}
 .navlinks {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
+  
 }
 
 .navlinks li {
@@ -385,7 +389,7 @@ details:last-of-type {
 
 /* About Section */
 .about-container {
-padding: 60px;
+padding: 65px;
 }
 
 .about-heading {
@@ -488,6 +492,7 @@ font-size: 20px;
 }
 
 }
+
 
 
 
