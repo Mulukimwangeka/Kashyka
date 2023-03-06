@@ -23,8 +23,8 @@ nav {
 }
 
 .logo img {
-  height: 60px; /* set the height of the logo */
-  width: auto; /* set the width to auto to ensure the aspect ratio is maintained */
+  height: 55px; /* set the height of the logo */
+  width: 130px; /* set the width to auto to ensure the aspect ratio is maintained */
 }
 .wide-navlinks-section {
   display: flex;
