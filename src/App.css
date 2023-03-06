@@ -35,6 +35,10 @@ header {
 
 .links-name {
   margin-right: 20px; /* add margin to separate links */
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 600;
+  
 }
 
 
