@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-import logo from './Images/mainlogo.png';
+import logo from './Images/logo2.png';
 import Partners from './Images/Partners.png'
-import about from './Images/aboutkash.jpg'
+import about from './Images/TEXT.png'
 import { faFacebookF, faTwitter, faInstagram, faTelegram, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -18,6 +18,8 @@ function App() {
       menuIcon.classList.add('open');
     }
   };
+
+  
   
 
 
@@ -79,16 +81,21 @@ function App() {
 
       {/* About Section */}
       <section id="About" className="about-section">
+      <div className="about-shape-1"></div>
+      <div className="about-shape-2"></div>
+      <div className="about-shape-3"></div>
         <div className="about-container">
           {/* About Content */}
           <div className='about-content-container'>
           <h2 className='about-heading'>WHAT IS <span className='Green-highlight'>KASH</span>YKA?</h2>
-          <p className='about-content'>A Secure and speedy money transfer platform </p>
-          <p className='about-content'>for africa that prioritizes financial </p>
+          <p className='about-content'>A Secure and speedy money transfer  </p>
+          <p className='about-content'>platform for africa that prioritizes financial </p>
           <p className='about-content'> inclusion and accessibility for all.</p>
           </div>
           {/* IMAGE */}
+          <div>          
           <img className='about-image' src={about} alt="aboutpicture"/>
+          </div>
         </div>
       </section>
 
