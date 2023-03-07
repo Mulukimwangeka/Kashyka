@@ -142,6 +142,7 @@ header {
 .about-image {
   max-width: 100%;
   position: relative;
+  
 }
 
 .about-image img {
@@ -236,6 +237,7 @@ h4 {
   padding-right: 10px;
   line-height: 1.6;
   text-transform: capitalize;
+  font-family: 'Helvetica';
   
 }
 
