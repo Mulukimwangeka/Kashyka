@@ -325,8 +325,8 @@ summary::-webkit-details-marker {
 .header{
   padding: 0px;
   margin: 0px;
-  background-color:transparent;
-  height: 80px;
+  background-color:white;
+  height: 70px;
   width: 100%;
   position:absolute;
   top: 0;
@@ -334,18 +334,15 @@ summary::-webkit-details-marker {
   z-index: 999;
 }
 
-.logo{
-  width: 10cm;
-  padding: 1px;
-  margin: 1px;
-  border-radius: 0px;
+.logo {
+  width: 25cm;
+  height: 3cm;
 }
 .img{
-  width: 30%;
-  height: 90%;
-  padding: 10px;
-  margin: 1px;
-  border-radius: 0px;
+  height: 4cm;
+  width: 4cm;
+  margin-left: -0.2cm;
+  margin-top :0.3cm; ;
 }
 
 .mobile-menu-icon-section {
@@ -863,6 +860,7 @@ font-size: 25px;
 /* iPhone XR/11 and their "Max" versions */
 @media only screen and (min-device-width: 414px) and (max-device-width: 896px) {
   /* styles for XR/11 and "Max" versions */
+
 }
 
 /* iPhone 12/13 and their "Pro" versions */
