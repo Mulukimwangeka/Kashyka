@@ -288,7 +288,7 @@ h4 {
 
 /* Help Section*/
 .help-container{
-  text-align: left;
+  text-align: center;
   padding: 50px;
   text-transform: capitalize;
 
@@ -319,10 +319,13 @@ details[open] summary::before {
   font-weight: bold;
   color: red;
 }
-
 details {
+  display: inline-block;
+  text-align: left;
   border-bottom: 1px solid black;
   margin-bottom: 20px;
+  padding: 5px;
+  width: 70%;
 }
 
 details:last-of-type {
@@ -332,6 +335,11 @@ details:last-of-type {
   text-align: left;
   margin-left: 0.43cm;
 }
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
 
 /* Footer Section */
 .footer{
