@@ -459,8 +459,9 @@ summary::-webkit-details-marker {
 /* About Section */
 .about-section {
   position: relative;
-  padding: 50px 0;
+  padding: 80px 0;
   background-color: #F9F9F9;
+
 }
 
 .about-container {
@@ -472,6 +473,7 @@ summary::-webkit-details-marker {
   margin: 0 auto;
   position: relative;
   z-index: 1;
+
 }
 
 .about-content {
@@ -494,7 +496,7 @@ summary::-webkit-details-marker {
 .about-heading {
   font-size: 30px;
   font-weight: bold;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: 20px;
   text-align: center;
   color: black;
@@ -531,7 +533,7 @@ summary::-webkit-details-marker {
 flex-direction: column;
 }
 .works-section{
-padding: 20px;
+padding: 5px;
 }
 
 .works-box {
@@ -558,7 +560,7 @@ border-radius: 50%;
 }
 .works-header{
 font-size: 30px;
-margin-top: 1.5cm;
+margin-top: 0cm;
 margin-bottom: 0cm;
 text-align: center;
 text-transform: capitalize;
@@ -572,7 +574,7 @@ margin-bottom: 5px;
 }
 
 .works-content {
-font-size: 22px;
+font-size: 30px;
 margin: 0;
 padding: 0;
 text-align: center;
@@ -730,6 +732,158 @@ font-size: 20px;
     max-width: 150px;
   }
 }
+
+/* iPhone SE and iPhone 5/5s/5c */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  /* styles for 6/6s/7/8 and "Plus" versions */
+  /* How it works Section */ 
+.about-heading{
+font-size: 25px;
+}
+.works-container {
+  flex-direction: column;
+  }
+  .works-section{
+  padding: 5px;
+  }
+  
+  .works-box {
+  flex-basis: 100%;
+  margin-top: 0;
+  margin-bottom: 0.5cm;
+  
+  
+  }
+  .circle1{
+  margin-top: 0.1cm;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 50%;
+  }
+  
+  .circle {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 50%;
+  
+  }
+  .works-header{
+  font-size: 25px;
+  margin-top: 0cm;
+  margin-bottom: 0cm;
+  text-align: center;
+  text-transform: capitalize;
+  
+  
+  }
+  
+  h4 {
+  font-size: 15px;
+  margin-bottom: 5px;
+  }
+  
+  .works-content {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Playfair Display', serif;
+  }
+  
+  .button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0cm;
+  margin-bottom: 1cm;
+  
+  
+  }
+  
+  .service-btn {
+  padding: 8px;
+  font-size: 16px;
+  }
+
+  /* Help Section */
+.help-container {
+  padding: 50px;
+  }
+  
+  .help-header {
+  margin-top: -1cm;
+  font-size: 30px;
+  text-align: center;
+
+  }
+
+  
+  .summary {
+  list-style: none;
+  font-size: large;
+  margin-bottom: 5px;
+  font-weight: 600;
+  }
+  
+  .summary-p {
+  margin-left: 1;
+  
+  }
+  details {
+    display: inline-block;
+    text-align: left;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  /* Footer Section */
+  .social-media {
+  font-size: 20px;
+  }
+  
+  
+  
+
+
+}
+
+/* iPhone X/XS/11 Pro and their "Max" versions */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  /* styles for X/XS/11 Pro and "Max" versions */
+}
+
+/* iPhone XR/11 and their "Max" versions */
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) {
+  /* styles for XR/11 and "Max" versions */
+}
+
+/* iPhone 12/13 and their "Pro" versions */
+@media only screen and (min-device-width: 390px) and (max-device-width: 844px) {
+  /* styles for 12/13 and "Pro" versions */
+}
+
+/* iPhone 12/13 "Pro Max" */
+@media only screen and (min-device-width: 428px) and (max-device-width: 926px) {
+  /* styles for 12/13 "Pro Max" */
+}
+
+/* iPhone 14 and its "Pro" version */
+@media only screen and (min-device-width: 428px) and (max-device-width: 926px) {
+  /* styles for iPhone 14 and its "Pro" version */
+}
+
+/* iPhone 14 "Pro Max" */
+@media only screen and (min-device-width: 428px) and (max-device-width: 990px) {
+  /* styles for iPhone 14 "Pro Max" */
+}
+
 
 
 
