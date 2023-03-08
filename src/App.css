@@ -324,14 +324,13 @@ summary::-webkit-details-marker {
 .header{
   padding: 0px;
   margin: 0px;
-  background-color: #fff;
+  background-color:transparent;
   height: 80px;
   width: 100%;
-  position: fixed;
+  position:absolute;
   top: 0;
   left: 0;
   z-index: 999;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .logo{
@@ -341,9 +340,9 @@ summary::-webkit-details-marker {
   border-radius: 0px;
 }
 .img{
-  width: 40%;
+  width: 30%;
   height: 90%;
-  padding: 1px;
+  padding: 10px;
   margin: 1px;
   border-radius: 0px;
 }
@@ -390,7 +389,7 @@ summary::-webkit-details-marker {
 .menu-icon {
   display: block;
   cursor: pointer;
-  height: 24px;
+  height: 20px;
   position: absolute;
   top: 0;
   right: 0;
@@ -458,22 +457,74 @@ summary::-webkit-details-marker {
  
 
 /* About Section */
-.about-container {
-padding: 65px;
+.about-section {
+  position: relative;
+  padding: 50px 0;
+  background-color: #F9F9F9;
 }
 
-.about-heading {
-font-size: 35px;
-
-
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 
 .about-content {
-font-size: 20px;
-text-align: center;
-font-family: 'Playfair Display', serif;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Times New Roman', Times, serif;
 
 }
+
+.about-content p {
+  letter-spacing: -0.5px;
+}
+
+
+.about-heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+}
+
+.Green-highlight {
+  color: #209f1e;
+}
+
+.about-image {
+  max-width: 80%;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 1cm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  display: block;
+  max-width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.about-image img:hover {
+  transform: scale(1.2);
+}
+
 
 /* How it works Section */
 .works-container {

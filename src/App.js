@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import logo from './Images/logo2.png';
 import Partners from './Images/Partners.png'
-import about from './Images/TEXT.png'
+import about from './Images/editabout.png'
 import { faFacebookF, faTwitter, faInstagram, faTelegram, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -81,9 +81,6 @@ function App() {
 
       {/* About Section */}
       <section id="About" className="about-section">
-      <div className="about-shape-1"></div>
-      <div className="about-shape-2"></div>
-      <div className="about-shape-3"></div>
         <div className="about-container">
           {/* About Content */}
           <div className='about-content-container'>
