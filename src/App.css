@@ -1021,6 +1021,32 @@ font-size: 25px;
   
   .about-section{
     align-items: center;
+  } 
+  .about-heading{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .about-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: solid;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 }
 
