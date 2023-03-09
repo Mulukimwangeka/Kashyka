@@ -639,7 +639,7 @@ font-size: 16px;
     margin-bottom: 1rem;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 0cm;
-    font-weight: 300;
+    font-weight: 700;
 
   }
 
@@ -655,6 +655,19 @@ font-size: 16px;
   .partners {
     width: 10cm;
     height: 8cm;
+    border-radius: 2cm;
+    margin-bottom: 1rem;
+    margin-left: 0cm;
+    margin-right: 0cm;
+    margin-top: 0cm;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F9F9F9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
   }
 
 
