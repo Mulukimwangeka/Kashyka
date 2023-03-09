@@ -213,20 +213,27 @@ h4 {
 
 /* Parties section */
 .parties-container{
+  display: flex;
+  flex-direction:row;
   margin: top 0;
   background-color: #d9d9d9;
-  padding: 2px;
+  padding: 6px;
 }
 
 .parties-header{
-  text-align: center;
+  flex-direction: row-reverse;
+  text-align: left;
+  margin-left: 1cm;
+  margin-top: 2cm;
   padding: 0px;
   background-color:#d9d9d9;
-  text-transform: uppercase;
-  font-size: larger;
-  font-weight: 800;
+  text-transform: capitalize;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Righteous', cursive;
 }
 .partners-container{
+  margin-left: 3cm;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -613,23 +620,48 @@ font-size: 16px;
 }
 
 /* Parties section */
-.partners-container {
-width: 100%;
-height: auto;
-margin-top: 10px;
-}
-.parties-header{
-font-size: 22px;
-text-transform: uppercase;
-color: #000;
-text-align: center;
 
-}
+.parties-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    
 
-.partners {
-width: 100%;
-height: auto;
-}
+  
+  }
+
+  .parties-header {
+    margin-right: 0;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 0cm;
+    margin-bottom: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 0cm;
+
+  }
+
+  .partners-container {
+
+    margin-top: 1rem;
+    margin-bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0cm;   
+  }
+
+  .partners {
+    width: 10cm;
+    height: 8cm;
+  }
+
+
+
+
+
+
+
 
 /* Help Section */
 .help-container {
@@ -871,7 +903,7 @@ font-size: 25px;
     background-color: #333;
     color: #fff;
     border: none;
-    border-radius: 10%;
+    border-radius: 50%;
     cursor: pointer;
     padding: 10px;
     opacity: 0.7;
@@ -1100,11 +1132,25 @@ font-size: 25px;
 
   /* Parties section */
   .parties-container {
+    flex-direction: column;
+    margin: 0;
     padding: 20px;
   }
 
   .parties-header {
-    font-size: 28px;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    margin-top: 2cm;
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  .partners-container {
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
 
   .partners {

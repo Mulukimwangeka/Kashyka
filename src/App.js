@@ -165,14 +165,15 @@ function App() {
     {/* Parties invovled Section */}
     <section id="Parties" className="parties-section">
         <div className="parties-container">
-        <div>
-    <h2 className='parties-header'>Payment Parties</h2>
-      </div>
+        
           
           {/*partners image*/}
           <div className='partners-container'>
           <img src={Partners} alt="Partners" className='partners'/>
           </div>
+          <div className='parties-header-container'>
+        <h2 className='parties-header'>Payment parties</h2>
+         </div>
           </div>
                 <ScrollButton />
 
