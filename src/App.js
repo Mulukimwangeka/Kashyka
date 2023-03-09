@@ -174,7 +174,7 @@ function App() {
           <img src={Partners} alt="Partners" className='partners'/>
           </div>
           </div>
-          <ScrollButton />
+                <ScrollButton />
 
           </section>
 
