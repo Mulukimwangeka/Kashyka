@@ -363,12 +363,15 @@ summary::-webkit-details-marker {
   width: 25cm;
   height: 3cm;
 }
-.img{
-  height: 4cm;
+.img {
+  height: 3cm;
   width: 4cm;
-  margin-left: -0.2cm;
-  margin-top :0.3cm; ;
+  margin: 0.3cm 0 0 0.2cm;
+  position: absolute;
+  top: 2;
+  left: 0;
 }
+
 
 .mobile-menu-icon-section {
   display: block; /* show the mobile menu icon section */
@@ -798,9 +801,7 @@ font-size: 20px;
   }
 }
 
-/* iPhone SE and iPhone 5/5s/5c */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-}
+
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   /* styles for 6/6s/7/8 and "Plus" versions */
@@ -935,38 +936,6 @@ font-size: 25px;
 
 
 }
-
-/* iPhone X/XS/11 Pro and their "Max" versions */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
-  /* styles for X/XS/11 Pro and "Max" versions */
-}
-
-/* iPhone XR/11 and their "Max" versions */
-@media only screen and (min-device-width: 414px) and (max-device-width: 896px) {
-  /* styles for XR/11 and "Max" versions */
-
-}
-
-/* iPhone 12/13 and their "Pro" versions */
-@media only screen and (min-device-width: 390px) and (max-device-width: 844px) {
-  /* styles for 12/13 and "Pro" versions */
-}
-
-/* iPhone 12/13 "Pro Max" */
-@media only screen and (min-device-width: 428px) and (max-device-width: 926px) {
-  /* styles for 12/13 "Pro Max" */
-}
-
-/* iPhone 14 and its "Pro" version */
-@media only screen and (min-device-width: 428px) and (max-device-width: 926px) {
-  /* styles for iPhone 14 and its "Pro" version */
-}
-
-/* iPhone 14 "Pro Max" */
-@media only screen and (min-device-width: 428px) and (max-device-width: 990px) {
-  /* styles for iPhone 14 "Pro Max" */
-}
-
 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -1200,43 +1169,6 @@ font-size: 25px;
     font-size: 20px;
   }
 
-  /* CSS styles for Android phones */
-
-  @media only screen and (max-device-width: 480px) and (max-device-height: 800px) and (-webkit-device-pixel-ratio: 1.5) {
-    .navlinks {
-      display: none;
-    }
-    .header {
-      height: 60px;
-    }
-    .logo {
-      width: 20cm;
-      height: 2cm;
-    }
-    .img {
-    height: 4cm;
-    width: 4cm;
-    margin-left: -0.2cm;
-    margin-top: 0.3cm;
-
-
-    }
-    .mobile-navlinks-section {
-      top: 55px;
-      padding: 20px;
-    }
-    .mobilelinks-name {
-      font-size: 18px;
-      margin-top: 0.8cm;
-    }
-    .about-heading {
-      font-size: 24px;
-    }
-    .about-image {
-      max-width: 70%;
-      border-radius: 0.5cm;
-    }
-  }
   
 
 
