@@ -365,7 +365,7 @@ summary::-webkit-details-marker {
 }
 .img {
   height: 3cm;
-  width: 4cm;
+  width: 3cm;
   margin: 0.3cm 0 0 0.2cm;
   position: absolute;
   top: 2;
@@ -600,7 +600,7 @@ margin-bottom: 5px;
 }
 
 .works-content {
-font-size: 30px;
+font-size:15px;
 margin: 0;
 padding: 0;
 text-align: center;
@@ -611,8 +611,8 @@ font-family: 'Playfair Display', serif;
 .button-container {
 display: flex;
 justify-content: center;
-margin-top: -0.5cm;
-margin-bottom: 0cm;
+margin-top: 0cm;
+margin-bottom: 1cm;
 
 
 }
@@ -637,8 +637,8 @@ font-size: 16px;
   .parties-header {
     margin-right: 0;
     text-align: center;
-    font-size: 2rem;
-    margin-top: -9cm;
+    font-size: 1.6rem;
+    margin-top: -7cm;
     margin-bottom: 1rem;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 0cm;
@@ -656,8 +656,8 @@ font-size: 16px;
   }
 
   .partners {
-    width: 10cm;
-    height: 8cm;
+    width: 8cm;
+    height: 6cm;
     border-radius: 1cm;
     margin-bottom: 1rem;
     margin-left: 0cm;
@@ -677,12 +677,6 @@ font-size: 16px;
     display: none;
   }
 
-
-
-
-
-
-
 /* Help Section */
 .help-container {
 padding: 50px;
@@ -690,7 +684,7 @@ padding: 50px;
 
 .help-header {
 margin-top: 0cm;
-font-size: 30px;
+font-size: 32px;
 text-align: center;
 line-height: 1.5;
 
@@ -701,6 +695,11 @@ list-style: none;
 font-size: large;
 margin-bottom: 5px;
 font-weight: 600;
+font-size: medium;
+
+}
+details {
+  width: 100%;
 }
 
 .summary-p {
@@ -794,11 +793,6 @@ font-size: 20px;
     width: 90vw;
   }
   
-}
-@media only screen and (max-width: 414px) { /* iPhone 11, 12, 13, 14 */
-  .logo {
-    max-width: 150px;
-  }
 }
 
 
@@ -1169,6 +1163,124 @@ font-size: 25px;
     font-size: 20px;
   }
 
+  @media only screen and (max-width: 360px) {
+    /* How it works Section */
+    .works-container {
+      flex-direction: column;
+    }
+    .works-section {
+      padding: 5px;
+    }
+    .works-box {
+      flex-basis: 100%;
+      margin-top: 0;
+      margin-bottom: 0.5cm;
+    }
+    .circle1 {
+      margin-top: 0.1cm;
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+      border-radius: 50%;
+    }
+    .circle {
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+      border-radius: 50%;
+    }
+    .works-header {
+      font-size: 30px;
+      margin-top: 0cm;
+      margin-bottom: 0cm;
+      text-align: center;
+      text-transform: capitalize;
+    }
+    h4 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    .works-content {
+      font-size: 10px;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      text-transform: capitalize;
+      font-family: 'Playfair Display', serif;
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin-top: -0.5cm;
+      margin-bottom: 0cm;
+    }
+    .service-btn {
+      padding: 8px;
+      font-size: 16px;
+    }
+    /* Parties section */
+    .parties-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5em;
+    }
+    .parties-header {
+      margin-right: 0;
+      text-align: center;
+      font-size: 2rem;
+      margin-top: -9cm;
+      margin-bottom: 1rem;
+      font-family: 'Times New Roman', Times, serif;
+      margin-left: 0cm;
+      font-weight: 700;
+    }
+    .partners-container {
+      margin-top: 3rem;
+      margin-bottom: 0;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 0cm;
+    }
+    .partners {
+      width: 10cm;
+      height: 8cm;
+      border-radius: 1cm;
+      margin-bottom: 1rem;
+      margin-left: 0cm;
+      margin-right: 0cm;
+      margin-top: 0cm;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #F9F9F9;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .scroll-button {
+      display: none;
+    }
+    /* Help Section */
+    .help-container {
+      padding: 50px;
+    }
+    .help-header {
+      margin-top: 0cm;
+      font-size: 30px;
+      text-align: center;
+      line-height: 1.5;
+    }
+    .summary {
+      list-style: none;
+      font-size: large;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+    .summary-p {
+      margin-left: 1;
+    }
+  }  
   
 
 
