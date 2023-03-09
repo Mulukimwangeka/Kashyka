@@ -238,6 +238,24 @@ h4 {
 
 }
 
+.scroll-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color:black;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.scroll-button:hover {
+  opacity: 1;
+}
+
+
 
 /* Help Section*/
 .help-container{
@@ -1102,8 +1120,9 @@ font-size: 25px;
     font-size: 20px;
   }
 
+  /* CSS styles for Android phones */
+
   @media only screen and (max-device-width: 480px) and (max-device-height: 800px) and (-webkit-device-pixel-ratio: 1.5) {
-    /* CSS styles for Android phones */
     .navlinks {
       display: none;
     }

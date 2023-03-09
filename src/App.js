@@ -4,7 +4,38 @@ import logo from './Images/logo2.png';
 import Partners from './Images/Partners.png'
 import about from './Images/editabout.png'
 import { faFacebookF, faTwitter, faInstagram, faTelegram, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+function ScrollButton() {
+  const [visible, setVisible] = useState(false);
+
+  const toggleVisible = () => {
+    const scrolled = document.documentElement.scrollTop;
+    if (scrolled > 300){
+      setVisible(true)
+    } 
+    else if (scrolled <= 300){
+      setVisible(false)
+    }
+  };
+
+  const scrollToTop = () =>{
+    window.scrollTo({
+      top: 0, 
+      behavior: 'smooth'
+    });
+  };
+
+  window.addEventListener('scroll', toggleVisible);
+
+  return (
+    <div className="scroll-button" onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}}>
+      <FontAwesomeIcon icon={faArrowUp} />
+    </div>
+  );
+}
+
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -143,6 +174,8 @@ function App() {
           <img src={Partners} alt="Partners" className='partners'/>
           </div>
           </div>
+          <ScrollButton />
+
           </section>
 
     {/* help Section */}
@@ -170,6 +203,7 @@ function App() {
             <details>
               <summary className='summary'>How do I receive money?</summary>
               <p className='summary-p'>You can receive money by selecting the receive money option and entering the amount you want to receive and the phone number of the person you want to receive the money from.</p>
+
             </details>
             
 
