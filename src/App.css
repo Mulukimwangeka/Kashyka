@@ -21,12 +21,11 @@ header {
 
 .logo {
   width: 25cm;
-  height: 3cm;
+  height: cm;
 }
 .img{
-  height: 4cm;
-  width: 4cm;
-
+  height: 1.5cm;
+  width: 2cm;
 }
 .navlinks {
   display: flex;
@@ -85,14 +84,18 @@ header {
   max-width: 500px;
   text-align: center;
   margin-right: 50px;
-  font-size: 20px;
   line-height: 1.5;
   margin-bottom: 20px;
   text-align: left;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 30px;
+  
+
 }
 
 .about-heading {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -361,11 +364,11 @@ summary::-webkit-details-marker {
 
 .logo {
   width: 25cm;
-  height: 3cm;
+  height: 2cm;
 }
 .img {
-  height: 3cm;
-  width: 3cm;
+  height: 1.5cm;
+  width: 1.6cm;
   margin: 0.3cm 0 0 0.2cm;
   position: absolute;
   top: 2;
@@ -725,14 +728,14 @@ font-size: 20px;
   }
   
   .logo {
-    height: 3cm;
+    height: 1.7cm;
     width: 3cm; 
     margin-right: 7cm;
    }
   
   .img {
-    height: 3cm;
-    width: 3cm;
+    height: 1.2cm;
+    width: 1.5cm;
   }
   
   .navlinks {
