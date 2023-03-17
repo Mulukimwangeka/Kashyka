@@ -121,7 +121,7 @@ header {
 /* How it works Section */
 .works-section{
   background-color: #fff;
-  padding: 120px;
+  padding: 140px;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif; /* add a new font-family */
@@ -134,7 +134,7 @@ header {
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 2cm;
-  margin-top: 1cm;
+  margin-top: 0cm;
 }
 
 .works-container {
@@ -178,11 +178,12 @@ header {
 
 h4 {
   font-size: 20px;
+  margin-top: 0;
   margin-bottom: 10px;
 }
 
 .works-content {
-  font-size: 18px; /* increase the font size */
+  font-size: 19px; /* increase the font size */
   text-align: center;
   font-weight: 400;
   word-spacing: -0.01em;
@@ -191,7 +192,8 @@ h4 {
   padding-right: 10px;
   line-height: 1.6;
   text-transform: capitalize;
-  font-family: 'Roboto', sans-serif; /* add a new font-family */
+  font-family: 'Playfair Display', serif;
+
 }
 
 .button-container {
