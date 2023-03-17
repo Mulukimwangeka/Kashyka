@@ -273,6 +273,7 @@ h4 {
 
 }
 .help-header{
+  margin-top: 1cm;
   text-align: center;
   padding: 20px;
   text-transform: capitalize;
@@ -303,7 +304,7 @@ details {
   text-align: left;
   line-height: 0.8cm;
   border-bottom: 1px solid black;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 5px;
   width: 70%;
 }
