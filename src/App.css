@@ -301,6 +301,7 @@ details[open] summary::before {
 details {
   display: inline-block;
   text-align: left;
+  line-height: 0.8cm;
   border-bottom: 1px solid black;
   margin-bottom: 20px;
   padding: 5px;
