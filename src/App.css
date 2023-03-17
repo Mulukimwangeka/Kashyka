@@ -80,7 +80,6 @@ header {
 .about-content {
   max-width: 800px;
   text-align: left;
-  margin-right: 50px;
   line-height: 1.5;
   margin-bottom: 20px;
   font-size: 25px;
@@ -108,7 +107,12 @@ header {
 .about-image {
   max-width: 80%;
   position: relative;
+  margin-top: 1cm;
   margin-left: 3cm;
+  border-radius: 2cm;
+  box-sizing: border-box;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 
