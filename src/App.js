@@ -2,39 +2,39 @@ import React, { useState } from 'react';
 import './App.css';
 import logo from './Images/logo1.png';
 import Partners from './Images/Partners.png'
-import about from './Images/editabout.png'
+import about from './Images/newabout.png'
 import { faFacebookF, faTwitter, faInstagram, faTelegram, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-function ScrollButton() {
-  const [visible, setVisible] = useState(false);
+// function ScrollButton() {
+//   const [visible, setVisible] = useState(false);
 
-  const toggleVisible = () => {
-    const scrolled = document.documentElement.scrollTop;
-    if (scrolled > 300){
-      setVisible(true)
-    } 
-    else if (scrolled <= 300){
-      setVisible(false)
-    }
-  };
+//   const toggleVisible = () => {
+//     const scrolled = document.documentElement.scrollTop;
+//     if (scrolled > 300){
+//       setVisible(true)
+//     } 
+//     else if (scrolled <= 300){
+//       setVisible(false)
+//     }
+//   };
 
-  const scrollToTop = () =>{
-    window.scrollTo({
-      top: 0, 
-      behavior: 'smooth'
-    });
-  };
+//   const scrollToTop = () =>{
+//     window.scrollTo({
+//       top: 0, 
+//       behavior: 'smooth'
+//     });
+//   };
 
-  window.addEventListener('scroll', toggleVisible);
+//   window.addEventListener('scroll', toggleVisible);
 
-  return (
-    <div className="scroll-button" onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}}>
-      <FontAwesomeIcon icon={faArrowUp} />
-    </div>
-  );
-}
+//   return (
+//     <div className="scroll-button" onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}}>
+//       <FontAwesomeIcon icon={faArrowUp} />
+//     </div>
+//   );
+// }
 
 
 function App() {
@@ -144,13 +144,13 @@ function App() {
               <h3 className='circle'>2</h3>
               <h4>Access Services</h4>
               <p className='works-content'>Enter your Registered 
-              Phone number,<br></br> Pin and click login </p>
+              number,<br></br>Pin and click login </p>
               </div>
             <div className='works-box'>
               <h3 className='circle'>3</h3>
               <h4>Choose Services</h4>
               <p className='works-content'>
-              log in, browse through our services <br></br>and select what you require.
+               Easily Log In and Select <br></br>the Service You Need
               </p>
               </div>
           </div>
@@ -175,7 +175,7 @@ function App() {
         <h2 className='parties-header'>Payment parties</h2>
          </div>
           </div>
-                <ScrollButton />
+                {/* <ScrollButton /> */}
 
           </section>
 

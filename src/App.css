@@ -37,7 +37,6 @@ header {
 
 .links-name {
   margin-right: 20px; /* add margin to separate links */
-  font-size: 20px;
   font-weight: 600;
   
 }
@@ -63,8 +62,8 @@ header {
 /* About Section */
 .about-section {
   position: relative;
-  padding: 80px 0;
-  background-color: #F9F9F9;
+  padding: 100px 0;
+  background-color: #2222;
 }
 
 .about-container {
@@ -79,12 +78,11 @@ header {
 }
 
 .about-content {
-  max-width: 500px;
-  text-align: center;
+  max-width: 800px;
+  text-align: left;
   margin-right: 50px;
   line-height: 1.5;
   margin-bottom: 20px;
-  text-align: left;
   font-size: 25px;
   font-weight: 400;
   word-spacing: -0.01em;
@@ -108,26 +106,23 @@ header {
 
 
 .about-image {
-  max-width: 100%;
+  max-width: 80%;
   position: relative;
-  
+  margin-left: 3cm;
 }
 
-.about-image img {
-  display: block;
-  margin: 0 auto;
-  max-width: 400px;
-}
+
 
 
 /* How it works Section */
 .works-section{
   background-color: #fff;
-  padding: 100px;
+  padding: 120px;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Helvetica';
+  font-family: 'Montserrat', sans-serif; /* add a new font-family */
 }
+
 .works-header{
   text-align: center;
   padding: 10px;
@@ -136,22 +131,18 @@ header {
   font-weight: 800;
   margin-bottom: 2cm;
   margin-top: 1cm;
-  
-
 }
+
 .works-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
-  
 }
 
 .works-box {
   flex-basis: calc(33.33% - 20px);
   margin-bottom: 50px;
   text-align: center;
-  
 }
 
 .circle {
@@ -166,6 +157,7 @@ header {
   margin: 0 auto 15px;
   font-size: 24px;
 }
+
 .circle1
 {
   display: flex;
@@ -186,8 +178,8 @@ h4 {
 }
 
 .works-content {
-  font-size: 15px;
-  text-align: calc();
+  font-size: 18px; /* increase the font size */
+  text-align: center;
   font-weight: 400;
   word-spacing: -0.01em;
   margin: 0;
@@ -195,12 +187,8 @@ h4 {
   padding-right: 10px;
   line-height: 1.6;
   text-transform: capitalize;
-  font-family: 'Helvetica';
-
-
-  
+  font-family: 'Roboto', sans-serif; /* add a new font-family */
 }
-
 
 .button-container {
   display: flex;
@@ -224,7 +212,7 @@ h4 {
   flex-direction:row;
   margin: top 0;
   background-color: #d9d9d9;
-  padding: 6px;
+  padding: 100px;
 }
 
 .parties-header{
