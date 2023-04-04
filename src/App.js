@@ -4,7 +4,6 @@ import logo from './Images/logo1.png';
 import Partners from './Images/Partners.png'
 import about from './Images/newabout.png'
 import { faFacebookF, faTwitter, faInstagram, faTelegram, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // function ScrollButton() {
