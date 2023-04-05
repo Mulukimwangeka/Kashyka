@@ -600,6 +600,7 @@ summary::-webkit-details-marker {
     top: 0;
     left: 0;
     z-index: 999;
+    position: fixed;
   }
   
   .logo {
@@ -626,7 +627,7 @@ summary::-webkit-details-marker {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* add a shadow effect */
     display: none; /* hide the mobile navigation links by default */
     position: fixed;
-    top: 65px; /* set the top position to be below the header */
+    top: 50px; /* set the top position to be below the header */
     left: 0;
     width: 100%;
     padding: 30px; /* add padding to the mobile menu */
@@ -638,6 +639,7 @@ summary::-webkit-details-marker {
   
   .mobile-navlinks-section.open {
     display: block; /* show the mobile navigation links when the mobile menu icon is clicked */
+    
   }
   .mobilelinks-name{
     font-size: 20px;
