@@ -153,9 +153,17 @@ function App() {
               </p>
               </div>
           </div>
-            <div class="button-container">
-                <button class="service-btn">Get Started</button>
-            </div>
+          <div class="button-container">
+  <div class="dropdown">
+    <button class="service-btn dropdown-btn">Get Started</button>
+    <div class="dropdown-content">
+      <a href="#" class="app-option">Use App</a>
+      <a href="https://t.me/KashykaPaymentbot" class="telegram-option">Join Telegram Bot</a>
+    </div>
+  </div>
+</div>
+
+
 
 
          </div>
