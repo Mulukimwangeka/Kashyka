@@ -114,7 +114,7 @@ function App() {
         <div className="about-container">
           {/* About Content */}
           <div className='about-content-container'>
-          <h2 className='about-heading'>WHAT IS <span className='Green-highlight'>KASH</span>YKA?</h2>
+          <h2 className='about-heading'>WHAT IS <span className='Green-highlight'>FASTA-</span>PAY?</h2>
           <p className='about-content'>A Secure and speedy money transfer platform for africa that prioritizes financial 
           inclusion and accessibility for all </p>
          
@@ -129,7 +129,7 @@ function App() {
       {/* How it works Section */}
       <section id="works" className="works-section">
         <div className="works">
-          <h2 className='works-header'>How to Send Money With Kashyka</h2>
+          <h2 className='works-header'>How to Send Money With Fasta-Pay</h2>
           <div className='works-container'>
             <div className='works-box'>
               <h3 className='circle1'>1</h3>
@@ -181,11 +181,11 @@ function App() {
     {/* help Section */}
     <section id="Help" className="help-section">
         <div className="help-container">
-          <h2 className='help-header'>Everything you need to know about sending money With <span className='Green-highlight'>KASH</span>YKA?</h2>
+          <h2 className='help-header'>Everything you need to know about sending money With <span className='Green-highlight'>FASTA-</span>PAY?</h2>
           {/* Faqs questions */}
           <details>
              <summary className='summary'>How do I register?</summary>
-              <p className='summary-p'>You can register with kashyka by providing your 
+              <p className='summary-p'>You can register with Fasta-Pay by providing your 
               phone number and other details and choosing a strong pin.
               </p>
            </details>
@@ -229,7 +229,7 @@ function App() {
 
 
         </div>
-          <p>&copy; 2023 kashyka. All Rights Reserved.</p>
+          <p>&copy; 2023 Fasta-Pay. All Rights Reserved.</p>
         </div>
       </footer>
     </div>
