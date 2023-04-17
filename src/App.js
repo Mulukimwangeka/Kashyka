@@ -154,12 +154,11 @@ function App() {
               </div>
           </div>
           <div class="button-container">
-  <div class="dropdown">
-    <button class="service-btn dropdown-btn">Get Started</button>
-    <div class="dropdown-content">
-      <a href="#" class="app-option">Use App</a>
-      <a href="https://t.me/KashykaPaymentbot" class="telegram-option">Join Telegram Bot</a>
-    </div>
+          <div class="dropdown">
+  <button class="service-btn dropdown-btn">Get Started</button>
+  <div class="dropdown-content">
+    <a href="https://web.fasta-pay.com/" class="app-option">Use App</a>
+    <a href="https://t.me/KashykaPaymentbot" class="telegram-option">Join Telegram Bot</a>
   </div>
 </div>
 
@@ -167,6 +166,7 @@ function App() {
 
 
          </div>
+        </div>
       </section>
 
     {/* Parties invovled Section */}
@@ -193,8 +193,8 @@ function App() {
           {/* Faqs questions */}
           <details>
              <summary className='summary'>How do I register?</summary>
-              <p className='summary-p'>You can register with Fasta-Pay by providing your 
-              phone number and other details and choosing a strong pin.
+              <p className='summary-p'>Register in 3 easy ways: via SMS, our webapp, or our bot!<br></br>To register using our bot, there are two easy ways to access it. The first is to simply download Telegram and search for "KashykaBot". Alternatively, you can dial *607*20# and receive a link via SMS to access the Telegram bot.
+              <br></br>
               </p>
            </details>
 
