@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import logo from './Images/FastaPayLogo.png';
 import Partners from './Images/Partners.png'
-import about from './Images/newabout.png'
+import about from './Images/aboutfast.jpg'
 import { faFacebookF, faTwitter, faInstagram, faTelegram, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
