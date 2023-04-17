@@ -193,7 +193,9 @@ function App() {
           {/* Faqs questions */}
           <details>
              <summary className='summary'>How do I register?</summary>
-              <p className='summary-p'>Register in 3 easy ways: via SMS, our webapp, or our bot!<br></br>To register using our bot, there are two easy ways to access it. The first is to simply download Telegram and search for "KashykaBot". Alternatively, you can dial *607*20# and receive a link via SMS to access the Telegram bot.
+              <p className='summary-p'>Register in 3 easy ways: via SMS, our webapp, or our bot! 
+              <br></br>To use our app, it's simple! Just click on the "Get Started" link, select the "Use App" option, and it will direct you to our web-app where you can start transacting.
+              <br></br>To register using our bot, there are two easy ways to access it. The first is to simply download Telegram and search for "KashykaBot". Alternatively, you can dial *607*20# and receive a link via SMS to access the Telegram bot.
               <br></br>
               </p>
            </details>
