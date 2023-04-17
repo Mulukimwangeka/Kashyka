@@ -369,6 +369,7 @@ summary::-webkit-details-marker {
     margin-left: 10px;
     
   }
+  
 
   .mobile-menu-icon-section {
     display: block; /* show the mobile menu icon section */
@@ -609,9 +610,9 @@ summary::-webkit-details-marker {
     height: 2cm;
   }
   .img {
-    height: 1.5cm;
-    width: 1.6cm;
-    margin: 0.3cm 0 0 0.2cm;
+    height: 1cm;
+    width: 3cm;
+    margin: 0.5cm 0 0 0.2cm;
     position: absolute;
     top: 2;
     left: 0;
