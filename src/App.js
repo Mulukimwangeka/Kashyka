@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import logo from './Images/logo1.png';
+import logo from './Images/FastaPayLogo.png';
 import Partners from './Images/Partners.png'
 import about from './Images/newabout.png'
 import { faFacebookF, faTwitter, faInstagram, faTelegram, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons';
