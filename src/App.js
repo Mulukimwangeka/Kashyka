@@ -192,23 +192,47 @@ function App() {
           <h2 className='help-header'>Everything you need to know about sending money With <span className='Green-highlight'>FASTA-</span>PAY?</h2>
           {/* Faqs questions */}
           <details>
-             <summary className='summary'>How do I register?</summary>
-              <p className='summary-p'>Register in 3 easy ways: via SMS, our webapp, or our bot! 
-              <br></br>To use our app, it's simple! Just click on the "Get Started" link, select the "Use App" option, and it will direct you to our web-app where you can start transacting.
-              <br></br>To register using our bot, there are two easy ways to access it. The first is to simply download Telegram and search for "KashykaBot". Alternatively, you can dial *607*20# and receive a link via SMS to access the Telegram bot.
-              <br></br>
-              </p>
+          <summary className='summary'>How do I register with Fasta-Pay?</summary>
+          <p className='summary-p'>You can register in 3 easy ways:
+          <ul>
+           <li>via SMS</li> 
+           <li>using our webapp - simply click on the "Get Started" link, choose "Use App", and you'll be directed to our web-app to start transacting.</li> 
+           <li>using our bot - download Telegram and search for "KashykaBot", or dial *607*20# to receive a link via SMS to access the bot.</li>
+          </ul>
+          </p> 
            </details>
 
-            <details>
-              <summary className='summary'>How do I access my account?</summary>
-              <p className='summary-p'>You can access your account by entering your phone number and pin.</p>
-            </details>
+           <details>
+    <summary className='summary'>Get started with Fasta-pay App?</summary>
+    <p className='summary-p'>
+        To access your account on the app, follow these simple steps:
+        <ul>
+            <li>Click on the "Use App" option in the "Get Started" button on our website.</li>
+            <li>This will take you to a new page where you will see two options:</li>
+            <ul>
+                <li>"Access Services" for returning users</li>
+                <li>"Register" for new users</li>
+            </ul>
+            <li>If you're a new user, click on "Register" and enter your personal details to create an account and access our services.</li>
+            <li>If you're a returning user, simply enter your registered details and proceed to our services.</li>
+        </ul>
+    </p>
+</details>
 
-            <details>
-              <summary className='summary'>How do I send money?</summary>
-              <p className='summary-p'>You can send money by selecting the send money option and entering the amount you want to send and the phone number of the person you want to send the money to.</p>
-            </details>
+<details>
+    <summary className='summary'>What services does Fasta-pay offer?</summary>
+    <p className='summary-p'>
+        Fasta-pay offers a wide range of services to meet your financial needs. Here are some of the services that we offer:
+        <ul>
+            <li>P2P platform: Our platform allows users to send money to other users via SMS, bot and app.</li>
+            <li>Paybill: Users can receive payments from third-party platforms and use them to pay bills or transfer funds to other users on Fasta-pay.</li>
+            <li>Withdraw: Users can withdraw funds from their Fasta-pay wallet to other third-party platforms.</li>
+            <li>Airtime: Users can buy airtime for themselves or send airtime to other users on the Fasta-pay platform.</li>
+            <li>Buy goods and services: Users can also use Fasta-pay to purchase goods and services from participating merchants.</li>
+        </ul>
+        With Fasta-pay, you can enjoy convenient and secure financial services, including the ability to buy goods and services, from the comfort of your home or office. Sign up now to start using our services!
+    </p>
+</details>
 
             <details>
               <summary className='summary'>How do I receive money?</summary>
