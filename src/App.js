@@ -158,7 +158,7 @@ function App() {
   <button class="service-btn dropdown-btn">Get Started</button>
   <div class="dropdown-content">
     <a href="https://web.fasta-pay.com/" class="app-option">Use App</a>
-    <a href="https://t.me/KashykaPaymentbot" class="telegram-option">Join Telegram Bot</a>
+    <a href="https://t.me/KashykaPaymentbot" class="telegram-option">Join our Telegram bot</a>
   </div>
 </div>
 
