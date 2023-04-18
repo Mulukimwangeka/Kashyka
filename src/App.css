@@ -888,19 +888,56 @@ summary::-webkit-details-marker {
   font-family: 'Playfair Display', serif;
   }
   
-  .button-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 0cm;
-  margin-bottom: 1cm;
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2cm;
+
+    }
+    
+    .dropdown-btn {
+    font-size: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 16px;
+
+    }
+    
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    }
+    
+    .dropdown-content a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    font-weight: 600;
+    }
+    
+    .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+    
+    .dropdown:hover .dropdown-btn {
+    background-color: #3e8e41;
+    }
+    
+    
   
-  
-  }
-  
-  .service-btn {
-  padding: 8px;
-  font-size: 16px;
-  }
+ 
   
   /* Parties section */
   
