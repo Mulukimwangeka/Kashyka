@@ -829,9 +829,10 @@ summary::-webkit-details-marker {
     transition: transform 0.3s ease;
   }
   
-  .about-image img:hover {
-    transform: scale(1.2);
-  }
+ 
+
+ 
+  
   
   
   /* How it works Section */

@@ -120,9 +120,13 @@ function App() {
          
           </div>
           {/* IMAGE */}
+          <a href="https://web.fasta-pay.com/" class="animated-link">
           <div>          
           <img className='about-image' src={about} alt="aboutpicture"/>
           </div>
+          </a>
+
+
         </div>
       </section>
 
