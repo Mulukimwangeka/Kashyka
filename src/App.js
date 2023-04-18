@@ -234,11 +234,17 @@ function App() {
     </p>
 </details>
 
-            <details>
-              <summary className='summary'>How do I receive money?</summary>
-              <p className='summary-p'>You can receive money by selecting the receive money option and entering the amount you want to receive and the phone number of the person you want to receive the money from.</p>
-
-            </details>
+<details>
+    <summary className='summary'>How can you contact us?</summary>
+    <p className='summary-p'>
+        We're always here to help you out. You can contact us through any of the following channels:
+        <ul>
+            <li>Telegram bot: Chat with our Telegram bot to quickly get answers to common questions or for assistance with your account.</li>
+            <li>Social media: Reach out to us on Facebook, Twitter, or Instagram for any inquiries or feedback.</li>
+        </ul>
+        We're constantly working to improve our support capabilities and provide the best possible service to our users. Please don't hesitate to contact us - we're always happy to hear from you!
+    </p>
+</details>
             
 
 
