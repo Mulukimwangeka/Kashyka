@@ -124,7 +124,7 @@ header {
 /* How it works Section */
 .works-section{
   background-color: #fff;
-  padding: 140px;
+  padding: 100px;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif; /* add a new font-family */
@@ -304,7 +304,7 @@ h4 {
 /* Help Section*/
 .help-container{
   text-align: center;
-  padding: 50px;
+  padding: 100px;
   text-transform: capitalize;
 
 }
