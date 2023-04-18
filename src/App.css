@@ -212,12 +212,15 @@ h4 {
   background-color: black;
   cursor: pointer;
   border-radius: 3px;
+  width:100%
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
   z-index: 1;
+  width:100%
+
 }
 
 .dropdown-content a {
@@ -226,6 +229,7 @@ h4 {
   text-decoration: none;
   color: black;
   font-size: medium;
+  font-weight: 600;
 }
 
 .dropdown-content a:hover {
